@@ -1,0 +1,16 @@
+=============================================
+Bootstrap 4 Snippets - Has been updated !!
+=============================================
+
+Added & Updated features
+------------------------
+ - Added "html5-template"
+ - Added "messages.json"
+ - Added "README.md"
+
+Documentation, examples & issue filing can be found here:
+https://github.com/mdegoo/bs4-sublime-plugin/issues
+
+------------------------------
+Follow me on Twitter: @de_gouville
+------------------------------
