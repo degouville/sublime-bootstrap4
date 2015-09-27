@@ -1,6 +1,8 @@
 <snippet>
 	<content><![CDATA[
-...
+<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/${1:v4-dev/dist}/css/bootstrap.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/${2:2.1.4}/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/twbs/bootstrap/${3:v4-dev/dist}/js/bootstrap.js"></script>
 ]]></content>
-	<tabTrigger>template:...</tabTrigger>
+	<tabTrigger>template:cdn</tabTrigger>
 </snippet>
