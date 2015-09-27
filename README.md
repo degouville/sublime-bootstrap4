@@ -8,7 +8,7 @@ Feel free to let me know what else you want added via:
 - Twitter [@de_gouville](https://twitter.com/de_gouville)
 - [Issues](https://github.com/mdegoo/bs4-sublime-plugin/issues)
 
-
+<!--
 ## What's included - contents
 - [Installation](#installation)
 - [CDN](#cdn)
@@ -299,7 +299,7 @@ There are 3 methods for installing this plugin.
 | Input group(addon & text-field)| input-group:addon:text     |
 | Input group (addon)            | input-group-addon          |
 | Input group (button)           | input-group-btn            |
-| Input group (text-field & btn) | input-group:text:btn       |
+| Input group (text-field & btn) | input-group:text:btn       | -->
 
 ### License
 
