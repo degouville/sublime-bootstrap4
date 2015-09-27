@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
-...
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="$1/css/bootstrap.css">
 ]]></content>
-	<tabTrigger>template:...</tabTrigger>
+	<tabTrigger>template:local_css</tabTrigger>
 </snippet>
