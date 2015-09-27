@@ -9,7 +9,7 @@ Added & Updated features
  - Added "README.md"
 
 Documentation, examples & issue filing can be found here:
-https://github.com/mdegoo/bs4-sublime-plugin/issues
+https://github.com/mdegoo/sublime-bootstrap4
 
 ------------------------------
 Follow me on Twitter: @de_gouville
