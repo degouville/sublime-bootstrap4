@@ -1,6 +1,8 @@
 <snippet>
 	<content><![CDATA[
-...
+	<!-- jQuery first, then Bootstrap JS. -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/${1:2.1.4}/jquery.min.js"></script>
+	<script src="https://cdn.rawgit.com/twbs/bootstrap/${2:v4-dev/dist}/js/bootstrap.js"></script>
 ]]></content>
-	<tabTrigger>template:...</tabTrigger>
+	<tabTrigger>template:cdn_js</tabTrigger>
 </snippet>
