@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
-...
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/${1:v4-dev/dist}/css/bootstrap.css">
 ]]></content>
-	<tabTrigger>template:...</tabTrigger>
+	<tabTrigger>template:cdn_css</tabTrigger>
 </snippet>
