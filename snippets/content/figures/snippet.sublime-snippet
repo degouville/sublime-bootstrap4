@@ -1,7 +1,10 @@
 <snippet>
 	<content><![CDATA[
 <!DOCTYPE html>
-	...
+<figure class="figure">
+	<img data-src="$1" class="img-rounded" alt="$2">
+	<figcaption class="figure-caption">$3</figcaption>
+</figure>
 ]]></content>
 	<tabTrigger>...</tabTrigger>
 </snippet>
