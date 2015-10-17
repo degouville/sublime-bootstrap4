@@ -33,9 +33,9 @@ Feel free to let me know what else you want added via:
 - Added "messages.json"
 - Added "README.md"
 
+<!--
 ### More to come
 
-<!--
 ## What's included - contents
 - [Installation](#installation)
 - [CDN](#cdn)
