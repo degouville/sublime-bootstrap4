@@ -1,25 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<!DOCTYPE html>
-<html lang="${1}">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>${2:Title Page}</title>
-
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="${3:https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css}">
-	</head>
-	<body>
-		<h1 class="text-center">${6:Hello World}</h1>
-
-		<!-- jQuery -->
-		<script src="${4:https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js}"></script>
-		<!-- Bootstrap JavaScript -->
-		<script src="${5:https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js}"></script>
-	</body>
-</html>
+...
 ]]></content>
-	<tabTrigger>template:html5</tabTrigger>
+	<tabTrigger>...</tabTrigger>
 </snippet>
