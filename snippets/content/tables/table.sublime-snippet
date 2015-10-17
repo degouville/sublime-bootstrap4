@@ -1,7 +1,18 @@
 <snippet>
 	<content><![CDATA[
 <!DOCTYPE html>
-	...
+<table class="table">
+	<thead>
+		<tr>
+			<th>$1</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>$2</td>
+		</tr>
+	</tbody>
+</table>
 ]]></content>
-	<tabTrigger>...</tabTrigger>
+	<tabTrigger>tables:table</tabTrigger>
 </snippet>
