@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<small class="text-muted">$1</small>
+]]></content>
+	<tabTrigger>typography:text_muted</tabTrigger>
+</snippet>

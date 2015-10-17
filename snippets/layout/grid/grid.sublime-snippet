@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<div class="container">
+	<div class="row">${4:
+
+		<div class="col-${1:xs|sm|md|lg|xl}-${2:1-12}">
+			$3
+		</div>
+
+	}</div>
+</div>
+]]></content>
+	<tabTrigger>grid:grid</tabTrigger>
+</snippet>
