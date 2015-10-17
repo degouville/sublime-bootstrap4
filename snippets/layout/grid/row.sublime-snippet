@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<div class="row">
+	$1
+</div>
+]]></content>
+	<tabTrigger>row</tabTrigger>
+</snippet>
