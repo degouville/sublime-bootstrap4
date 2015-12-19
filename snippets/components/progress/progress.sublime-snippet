@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+		<progress class="progress" value="${1:10}" max="100">$2</progress>
+]]></content>
+	<tabTrigger>progress</tabTrigger>
+</snippet>
+
+
+
+<!--   'Progress - Bootstrap 4':
+    'prefix': 'pro'
+    'body': """
+      <progress class="progress" value="${1:10}" max="100">$2</progress>
+    """
+
+  'Progress context - Bootstrap 4':
+    'prefix': 'proco'
+    'body': """
+      <progress class="progress progress-${1:success|info|warning|danger}" value="${2:25}" max="100">${2:25}%</progress>
+    """
+
+  'Progress striped - Bootstrap 4':
+    'prefix': 'procost'
+    'body': """
+      <progress class="progress progress-striped progress-${1:success|info|warning|danger}" value="${2:25}" max="100">${2:25}%</progress>
+    """
+
+  'Progress - Bootstrap 4':
+    'prefix': 'prostan'
+    'body': """
+      <progress class="progress progress-striped progress-animated" value="${1:10}" max="100">$2</progress>
+    """
+ -->

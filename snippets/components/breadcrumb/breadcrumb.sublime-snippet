@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+	<ol class="breadcrumb">
+		<li class="active">${1:Home}</li>
+	</ol>
+	<ol class="breadcrumb">
+		<li><a href="${4:#}">${1:Home}</a></li>
+		<li class="active">${2:Library}</li>
+	</ol>
+	<ol class="breadcrumb" style="margin-bottom: 5px;">
+		<li><a href="${4:#}">${1:Home}</a></li>
+		<li><a href="${4:#}">${2:Library}</a></li>
+		<li class="active">${3:Data}</li>
+	</ol>
+]]></content>
+	<tabTrigger>breadcrumb</tabTrigger>
+</snippet>

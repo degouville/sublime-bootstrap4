@@ -1,7 +1,8 @@
 <snippet>
 	<content><![CDATA[
-<!DOCTYPE html>
-	...
+		<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="${1:top|right|bottom|left}" title="Tooltip on ${1:top|right|bottom|left}">
+			${2:Tooltip on ${1:top|right|bottom|left}}
+		</button>
 ]]></content>
-	<tabTrigger>...</tabTrigger>
+	<tabTrigger>tooltip</tabTrigger>
 </snippet>

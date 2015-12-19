@@ -1,0 +1,141 @@
+<snippet>
+	<content><![CDATA[
+		<nav>
+			<ul class="pagination">
+				<li>
+					<a href="${3:#}" aria-label="${4:Previous}">
+						<span aria-hidden="true">&laquo;</span>
+						<span class="sr-only">${4:Previous}</span>
+					</a>
+				</li>
+				<li><a href="${1:#}">1</a></li>
+				<li><a href="${1:#}">2</a></li>
+				<li><a href="${1:#}">3</a></li>
+				${2:<li><a href="${1:#}">4</a></li>
+				<li><a href="${1:#}">5</a></li>}
+				<li>
+					<a href="${3:#}" aria-label="${4:Next}">
+						<span aria-hidden="true">&raquo;</span>
+						<span class="sr-only">${4:Next}</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+]]></content>
+	<tabTrigger>pagination</tabTrigger>
+</snippet>
+
+
+<!--
+# Pagination
+'Pagination - Bootstrap 4':
+	'prefix': 'pag'
+	'body': """
+		<nav>
+			<ul class="pagination">
+				<li>
+					<a href="${3:#}" aria-label="${4:Previous}">
+						<span aria-hidden="true">&laquo;</span>
+						<span class="sr-only">${4:Previous}</span>
+					</a>
+				</li>
+				<li><a href="${1:#}">1</a></li>
+				<li><a href="${1:#}">2</a></li>
+				<li><a href="${1:#}">3</a></li>
+				${2:<li><a href="${1:#}">4</a></li>
+				<li><a href="${1:#}">5</a></li>}
+				<li>
+					<a href="${3:#}" aria-label="${4:Next}">
+						<span aria-hidden="true">&raquo;</span>
+						<span class="sr-only">${4:Next}</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	"""
+
+'Pagination Disabled and active states - Bootstrap 4':
+	'prefix': 'pagda'
+	'body': """
+		<nav>
+			<ul class="pagination">
+				<li class="disabled">
+					<a href="${1:#}" aria-label="${2:Previous}">
+						<span aria-hidden="true">&laquo;</span>
+						<span class="sr-only">${2:Previous}</span>
+					</a>
+				</li>
+				<li class="active">
+					<a href="${1:#}">1 <span class="sr-only">(current)</span></a>
+				</li>
+				<li><a href="${1:#}">2</a></li>
+				<li><a href="${1:#}">3</a></li>
+				<li><a href="${1:#}">4</a></li>
+				<li><a href="${1:#}">5</a></li>
+				<li>
+					<a href="${1:#}" aria-label="${3:Next}">
+						<span aria-hidden="true">&raquo;</span>
+						<span class="sr-only">${3:Next}</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	"""
+
+'Pagination - Bootstrap 4':
+	'prefix': 'pagsz'
+	'body': """
+		<nav>
+			<ul class="pagination pagination-${1:lg|sm}">
+				<li>
+					<a href="${1:#}" aria-label="${2:Previous}">
+						<span aria-hidden="true">&laquo;</span>
+						<span class="sr-only">${2:Previous}</span>
+					</a>
+				</li>
+				<li><a href="${1:#}">1</a></li>
+				<li><a href="${1:#}">2</a></li>
+				<li><a href="${1:#}">3</a></li>
+				<li>
+					<a href="${1:#}" aria-label="${3:Next}">
+						<span aria-hidden="true">&raquo;</span>
+						<span class="sr-only">${3:Next}</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	"""
+
+'Pagination pager - Bootstrap 4':
+	'prefix': 'pager'
+	'body': """
+		<nav>
+			<ul class="pager">
+				<li><a href="${1:#}">Previous</a></li>
+				<li><a href="${1:#}">Next</a></li>
+			</ul>
+		</nav>
+	"""
+
+'Pagination pager aligned - Bootstrap 4':
+	'prefix': 'pageral'
+	'body': """
+		<nav>
+			<ul class="pager">
+				<li class="pager-prev"><a href="${1:#}">Older</a></li>
+				<li class="pager-next"><a href="${1:#}">Newer</a></li>
+			</ul>
+		</nav>
+	"""
+
+'Pagination pager aligned & disabled - Bootstrap 4':
+	'prefix': 'pagerald'
+	'body': """
+		<nav>
+			<ul class="pager">
+				<li class="pager-prev disabled"><a href="${1:#}">Older</a></li>
+				<li class="pager-next"><a href="${1:#}">Newer</a></li>
+			</ul>
+		</nav>
+	"""
+ -->
