@@ -1,0 +1,81 @@
+<snippet>
+	<content><![CDATA[
+		<div class="btn-group" role="group" aria-label="${1:Basic example}">
+			<button type="button" class="btn btn-secondary">${2:Left}</button>
+			<button type="button" class="btn btn-secondary">${2:Middle}</button>
+			<button type="button" class="btn btn-secondary">${2:Right}</button>
+		</div>
+]]></content>
+	<tabTrigger>...</tabTrigger>
+</snippet>
+
+<!--
+# Buttons Group
+'Button group - Bootstrap 4':
+	'prefix': 'btngr'
+	'body': """
+		<div class="btn-group" role="group" aria-label="${1:Basic example}">
+			<button type="button" class="btn btn-secondary">${2:Left}</button>
+			<button type="button" class="btn btn-secondary">${2:Middle}</button>
+			<button type="button" class="btn btn-secondary">${2:Right}</button>
+		</div>
+	"""
+
+'Button toolbar - Bootstrap 4':
+	'prefix': 'btntlb'
+	'body': """
+		<div class="btn-toolbar" role="toolbar" aria-label="${1:Toolbar with button groups}">
+			<div class="btn-group" role="group" aria-label="First group">
+				<button type="button" class="btn btn-secondary">$1</button>
+				<button type="button" class="btn btn-secondary">$2</button>
+				<button type="button" class="btn btn-secondary">$3</button>
+				<button type="button" class="btn btn-secondary">$4</button>
+			</div>
+			<div class="btn-group" role="group" aria-label="Second group">
+				<button type="button" class="btn btn-secondary">$5</button>
+				<button type="button" class="btn btn-secondary">$6</button>
+				<button type="button" class="btn btn-secondary">$7</button>
+			</div>
+			<div class="btn-group" role="group" aria-label="Third group">
+				<button type="button" class="btn btn-secondary">$8</button>
+			</div>
+		</div>
+	"""
+
+'Button group size - Bootstrap 4':
+	'prefix': 'btngrsi'
+	'body': """
+		<div class="btn-group btn-group-${1:lg|sm|xs}" role="group" aria-label="${2:Toolbar with button groups}">
+			$3
+		</div>
+	"""
+
+'Button dropdown - Bootstrap 4':
+	'prefix': 'btndr'
+	'body': """
+		<div class="btn-group" role="group" aria-label="${3:Button group with nested dropdown}">
+			<button type="button" class="btn btn-secondary">$1</button>
+			<button type="button" class="btn btn-secondary">$2</button>
+
+			<div class="btn-group" role="group">
+				<button id="${4:btnGroupDrop1}" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Dropdown
+				</button>
+				<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+					<a class="dropdown-item" href="${5:#}">${6:Dropdown link}</a>
+					<a class="dropdown-item" href="${5:#}">${6:Dropdown link}</a>
+				</div>
+			</div>
+		</div>
+	"""
+
+'Button group - Bootstrap 4':
+	'prefix': 'btngrvr'
+	'body': """
+		<div class="btn-group-vertical" role="group" aria-label="${1:Basic example}">
+			<button type="button" class="btn btn-secondary">${2:Left}</button>
+			<button type="button" class="btn btn-secondary">${2:Middle}</button>
+			<button type="button" class="btn btn-secondary">${2:Right}</button>
+		</div>
+	"""
+ -->

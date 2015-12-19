@@ -1,0 +1,89 @@
+<snippet>
+	<content><![CDATA[
+		<div class="dropdown open">
+			<button class="btn btn-secondary dropdown-toggle" type="button" id="${4:dropdownMenu1}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				${3:Dropdown}
+			</button>
+			<div class="dropdown-menu" aria-labelledby="${4:dropdownMenu1}">
+				<a class="dropdown-item" href="${1:#}">${2:Action}</a>
+				<a class="dropdown-item" href="${1:#}">${2:Another action}</a>
+				<a class="dropdown-item" href="${1:#}">${2:Something else here}</a>
+			</div>
+		</div>
+]]></content>
+	<tabTrigger>dropdown</tabTrigger>
+</snippet>
+
+
+<!--
+# Dropdown
+'Dropdown - Bootstrap 4':
+	'prefix': 'drp'
+	'body': """
+		<div class="dropdown open">
+			<button class="btn btn-secondary dropdown-toggle" type="button" id="${4:dropdownMenu1}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				${3:Dropdown}
+			</button>
+			<div class="dropdown-menu" aria-labelledby="${4:dropdownMenu1}">
+				<a class="dropdown-item" href="${1:#}">${2:Action}</a>
+				<a class="dropdown-item" href="${1:#}">${2:Another action}</a>
+				<a class="dropdown-item" href="${1:#}">${2:Something else here}</a>
+			</div>
+		</div>
+	"""
+
+'Dropdown button elements - Bootstrap 4':
+	'prefix': 'drpbtn'
+	'body': """
+		<div class="dropdown open">
+			<button class="btn btn-secondary dropdown-toggle" type="button" id="${3:dropdownMenu1}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				${2:Dropdown}
+			</button>
+			<div class="dropdown-menu" aria-labelledby="${3:dropdownMenu1}">
+				<button class="dropdown-item" type="button">{$1:Action}</button>
+				<button class="dropdown-item" type="button">{$1:Another action}</button>
+				<button class="dropdown-item" type="button">{$1:Something else here}</button>
+			</div>
+		</div>
+	"""
+
+'Dropdown Alignement - Bootstrap 4':
+	'prefix': 'drpagm'
+	'body': """
+		<div class="dropdown-menu dropdown-menu-right" aria-labelledby="${2:dLabel}">
+			${1:...}
+		</div>
+	"""
+
+'Dropdown menu header - Bootstrap 4':
+	'prefix': 'drpmh'
+	'body': """
+		<div class="dropdown-menu">
+			<h6 class="dropdown-header">${3:Dropdown header}</h6>
+			<a class="dropdown-item" href="${1:#}">${2:Action}</a>
+			<a class="dropdown-item" href="${1:#}">${2:Another action}</a>
+		</div>
+	"""
+
+'Dropdown menu divides - Bootstrap 4':
+	'prefix': 'drpmdv'
+	'body': """
+		<div class="dropdown-menu">
+			<a class="dropdown-item" href="${1:#}">${2:Action}</a>
+			<a class="dropdown-item" href="${1:#}">${2:Another action}</a>
+			<a class="dropdown-item" href="${1:#}">${2:Something else here}</a>
+			<div class="dropdown-divider"></div>
+			<a class="dropdown-item" href="${1:#}">${2:Separated link}</a>
+		</div>
+	"""
+
+'Dropdown menu disabled - Bootstrap 4':
+	'prefix': 'drpmds'
+	'body': """
+		<div class="dropdown-menu">
+			<a class="dropdown-item" href="${1:#}">${2:Regular link}</a>
+			<a class="dropdown-item disabled" href="${1:#}">${2:Disabled link}</a>
+			<a class="dropdown-item" href="${1:#}">${2:Another link}</a>
+		</div>
+	"""
+ -->

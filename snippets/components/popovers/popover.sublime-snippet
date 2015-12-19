@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+		<button type="button" class="btn btn-lg btn-danger bd-popover" data-toggle="popover" title="${2:Popover title}" data-content="${3:And here's some amazing content. It's very engaging. Right?}">${1:Click to toggle popover}</button>
+]]></content>
+	<tabTrigger>...</tabTrigger>
+</snippet>
+
+
+<!--   # Popover
+  'Popover - Bootstrap 4':
+    'prefix': 'pop'
+    'body': """
+      <button type="button" class="btn btn-lg btn-danger bd-popover" data-toggle="popover" title="${2:Popover title}" data-content="${3:And here's some amazing content. It's very engaging. Right?}">${1:Click to toggle popover}</button>
+    """
+
+  'Popover direction - Bootstrap 4':
+    'prefix': 'popdi'
+    'body': """
+      <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="${1:top|right|bottom|left}" data-content="${2:Vivamus sagittis lacus vel augue laoreet rutrum faucibus.}">
+        ${3:Popover on ${1:top|right|bottom|left}}
+      </button>
+    """
+ -->

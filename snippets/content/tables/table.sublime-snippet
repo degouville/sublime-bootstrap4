@@ -1,6 +1,5 @@
 <snippet>
 	<content><![CDATA[
-<!DOCTYPE html>
 <table class="table">
 	<thead>
 		<tr>

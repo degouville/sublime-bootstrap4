@@ -1,6 +1,5 @@
 <snippet>
 	<content><![CDATA[
-<!DOCTYPE html>
 <div class="container">
 	$1
 </div>

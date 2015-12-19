@@ -1,6 +1,5 @@
 <snippet>
 	<content><![CDATA[
-<!DOCTYPE html>
 <img src="$1" class="img-responsive" alt="$2">
 ]]></content>
 	<tabTrigger>image:responsive</tabTrigger>

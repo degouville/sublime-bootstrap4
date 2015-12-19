@@ -1,0 +1,36 @@
+<snippet>
+	<content><![CDATA[
+<span class="label label-default">$1</span>
+]]></content>
+	<tabTrigger>label</tabTrigger>
+</snippet>
+
+
+<!--
+'Label - Bootstrap 4':
+	'prefix': 'lab'
+	'body': '<span class="label label-default">$1</span>'
+
+'Label heading example - Bootstrap 4':
+	'prefix': 'labex'
+	'body': """
+		<h1>${2:Example heading <span class="label label-default">${1:New}</span>}</h1>
+		<h2>${2:Example heading <span class="label label-default">${1:New}</span>}</h2>
+		<h3>${2:Example heading <span class="label label-default">${1:New}</span>}</h3>
+		<h4>${2:Example heading <span class="label label-default">${1:New}</span>}</h4>
+		<h5>${2:Example heading <span class="label label-default">${1:New}</span>}</h5>
+		<h6>${2:Example heading <span class="label label-default">${1:New}</span>}</h6>
+	"""
+
+'Label context - Bootstrap 4':
+	'prefix': 'labco'
+	'body': """
+		<span class="label label-${1:default|primary|success|info|warning|danger}">$2</span>
+	"""
+
+'Label pill - Bootstrap 4':
+	'prefix': 'labpi'
+	'body': """
+		<span class="label label-pill label-${1:default|primary|success|info|warning|danger}">$2</span>
+	"""
+ -->
