@@ -1,6 +1,5 @@
 <snippet>
 	<content><![CDATA[
-<!DOCTYPE html>
 <div class="media">
 	<a class="media-left" href="#$1">
 		<img class="media-object" data-src="$2" alt="$3">

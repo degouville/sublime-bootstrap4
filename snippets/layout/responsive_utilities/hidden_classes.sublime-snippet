@@ -1,6 +1,5 @@
 <snippet>
 	<content><![CDATA[
-<!DOCTYPE html>
 <div class="col-${1:xs|sm|md|lg}-${2:1|12} hidden-${3:xs|sm|md|lg|xl}-${4:down|up}">
 	$5
 </div>
