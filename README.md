@@ -368,7 +368,7 @@ Feel free to let me know what else you want added via:
 ###### <a name="carousel">Carousel</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
-| carousel                            | Generates a  Carousel                                  |
+| carousel                             | Generates a  Carousel                                  |
 | carousel:caption                     | Generates a  Carousel caption                          |
 
 <!--

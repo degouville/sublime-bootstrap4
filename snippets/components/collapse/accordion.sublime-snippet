@@ -1,0 +1,82 @@
+<snippet>
+	<content><![CDATA[
+		<p>
+			<a class="btn btn-primary" data-toggle="collapse" href="#${1:collapseExample}" aria-expanded="false" aria-controls="${1:collapseExample}">
+				${2:Link with href}
+			</a>
+			<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#${1:collapseExample}" aria-expanded="false" aria-controls="${1:collapseExample}">
+				${3:Button with data-target}
+			</button>
+		</p>
+		<div class="collapse" id="${1:collapseExample}">
+			<div class="card card-block">
+				${4:Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.}
+			</div>
+		</div>
+]]></content>
+	<tabTrigger>collapse</tabTrigger>
+</snippet>
+
+<!--
+# Collapse
+'Collapse - Bootstrap 4':
+	'prefix': 'coll'
+	'body': """
+		<p>
+			<a class="btn btn-primary" data-toggle="collapse" href="#${1:collapseExample}" aria-expanded="false" aria-controls="${1:collapseExample}">
+				${2:Link with href}
+			</a>
+			<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#${1:collapseExample}" aria-expanded="false" aria-controls="${1:collapseExample}">
+				${3:Button with data-target}
+			</button>
+		</p>
+		<div class="collapse" id="${1:collapseExample}">
+			<div class="card card-block">
+				${4:Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.}
+			</div>
+		</div>
+	"""
+
+'Collapse accordion - Bootstrap 4':
+	'prefix': 'colla'
+	'body': """
+		<div id="accordion" role="tablist" aria-multiselectable="true">
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="${3:headingOne}">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="${2:collapseOne}">
+							${1:Collapsible Group Item #1}
+						</a>
+					</h4>
+				</div>
+				<div id="${2:collapseOne}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="${3:headingOne}">
+					${3:Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.}
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="${3:headingTwo}">
+					<h4 class="panel-title">
+						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="${2:collapseTwo}">
+							${1:Collapsible Group Item #2}
+						</a>
+					</h4>
+				</div>
+				<div id="${2:collapseTwo}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="${3:headingTwo}">
+					${3:Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.}
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="${3:headingThree}">
+					<h4 class="panel-title">
+						<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="${2:collapseThree}">
+							${1:Collapsible Group Item #3}
+						</a>
+					</h4>
+				</div>
+				<div id="${2:collapseThree}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="${3:headingThree}">
+					${3:Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.}
+				</div>
+			</div>
+		</div>
+	"""
+ -->
