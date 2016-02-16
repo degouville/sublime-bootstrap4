@@ -3,6 +3,8 @@ Bootstrap 4 - Sublime Plugin
 
 A sublime plugin complete with Bootstrap 4 snippets
 
+---
+
 Feel free to let me know what else you want added via:
 
 - Twitter [@de_gouville](https://twitter.com/de_gouville)
@@ -22,10 +24,6 @@ Key Features:
   - Snippet support for layout.
   - Snippet support for content.
 
-Screenshot :
-
-![Screenshot][6]
-
 Feel free to let me know what else you want added via:
 
   - Twitter [@de_gouville][3]
@@ -33,9 +31,6 @@ Feel free to let me know what else you want added via:
   - Github  [Issues][5]
 
 ---
-
-
-
 
 
 ## <a name="menu"></a>Menu
@@ -293,7 +288,6 @@ Feel free to let me know what else you want added via:
 [3]: https://twitter.com/de_gouville
 [4]: https://getbootstrap.slack.com/messages/@degouville/
 [5]: https://github.com/mdegoo/sublime-bootstrap4/issues
-[6]: https://raw.githubusercontent.com/mdegoo/atom-bootstrap4/master/atom-screenshot/screeshot_30.gif <!-- Todo -->
 
 ---
 
