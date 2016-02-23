@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<div class="hidden-print">
+  	$1
+</div>
+]]></content>
+	<tabTrigger>utilities:hidden_print</tabTrigger>
+</snippet>
+
+<!--
+	<div class="visible-print-${1:block|inline|inline-block}">
+	  	$2
+	</div>
+
+ -->

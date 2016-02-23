@@ -134,12 +134,11 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :-------------------------------------                 |
 | media                                | Generates a Media                                      |
-<!--
 | media:right                          | Generates a Media right                                |
 | media:medium                         | Generates a Media middle                               |
 | media:bottom                         | Generates a Media bottom                               |
 | media:list                           | Generates a Media List                                 |
- -->
+
 ###### <a name="responsive-utilities">Responsive Utilities</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
