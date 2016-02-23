@@ -106,7 +106,8 @@ git clone https://github.com/mdegoo/sublime-bootstrap4.git
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | grid:container                       | Generates a container                                  |
-<!-- | grid:fluid_container| Generates a fluid container                            |
+<!--
+| grid:fluid_container| Generates a fluid container                            |
 | grid:row                             | Generates a row                                        |
 | grid:grid                            | Generates a grid                                       |
 | grid:column                          | Generates a column                                     |
@@ -131,7 +132,8 @@ git clone https://github.com/mdegoo/sublime-bootstrap4.git
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :-------------------------------------                 |
 | media                                | Generates a Media                                      |
-<!-- | media:right                          | Generates a Media right                                |
+<!--
+| media:right                          | Generates a Media right                                |
 | media:medium                         | Generates a Media middle                               |
 | media:bottom                         | Generates a Media bottom                               |
 | media:list                           | Generates a Media List                                 |
@@ -149,7 +151,8 @@ git clone https://github.com/mdegoo/sublime-bootstrap4.git
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | typography:text_muted                | Generates a  Text Muted                                |
-<!-- | typography:display_heading           | Generates a  Display Heading                           |
+<!--
+| typography:display_heading           | Generates a  Display Heading                           |
 | typography:lead                      | Generates a  Lead                                      |
 | typography:blockquotes               | Generates a  Blockquotes                               |
 | typography:blockquotes_reverse       | Generates a  Blockquotes Reverse                       |
@@ -168,7 +171,8 @@ git clone https://github.com/mdegoo/sublime-bootstrap4.git
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | tables:table                         | Generates a  Table                                     |
-<!-- | tables:tables                        | Generates a  Tables (full option)                      |
+<!--
+| tables:tables                        | Generates a  Tables (full option)                      |
 | tables:head_inverse                  | Generates a  Tables Head Inverse                       |
 | tables:responsive                    | Generates a  Tables Responsive                         |
 | tables:colspan                       | Generates a  Tables Colspan                            |
@@ -186,7 +190,8 @@ git clone https://github.com/mdegoo/sublime-bootstrap4.git
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | buttons                              | Generates a  Button                                    |
-<!-- | buttons:colors                       | Generates a  Button colors                             |
+<!--
+| buttons:colors                       | Generates a  Button colors                             |
 | buttons:outline                      | Generates a  Button Outline                            |
 | buttons:a                            | Generates a  Button < a >                              |
 | buttons:input                        | Generates a  Button < input >                          |
@@ -201,7 +206,8 @@ git clone https://github.com/mdegoo/sublime-bootstrap4.git
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | button-group                         | Generates a  Button group                              |
-<!-- | button-group:toolbar                 | Generates a  Button toolbar                            |
+<!--
+| button-group:toolbar                 | Generates a  Button toolbar                            |
 | button-group:group_size              | Generates a  Button group size                         |
 | button-group:dropdown                | Generates a  Button dropdown                           | -->
 
@@ -209,13 +215,15 @@ git clone https://github.com/mdegoo/sublime-bootstrap4.git
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | button-dropdown                      | Generates a  Button dropdown                           |
-<!-- | button-dropup                        | Generates a  Button dropup                             | -->
+<!--
+| button-dropup                        | Generates a  Button dropup                             | -->
 
 ###### <a name="forms">Forms</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | form                                 | Generates a  Form Controls                             |
-<!-- | form:group                           | Generates a  Form group                                |
+<!--
+| form:group                           | Generates a  Form group                                |
 | form:inline                          | Generates a  Form inline                               |
 | form:hidden_label                    | Generates a  Form hidden label                         |
 | form:grid                            | Generates a  Form w/ Grid                              |
@@ -239,7 +247,8 @@ git clone https://github.com/mdegoo/sublime-bootstrap4.git
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | input-group                          | Generates an Input Group                               |
-<!-- | input-group:sizing                   | Generates an Input Group Sizing                        |
+<!--
+| input-group:sizing                   | Generates an Input Group Sizing                        |
 | input-group:buttons_addons           | Generates a Buttons addons                             |
 | input-group:Buttons_without_dropdowns| Generates a Buttons w/ dropdowns                       |
 | input-group:segmented_buttons        | Generates a Segmented buttons                          |
@@ -248,20 +257,23 @@ git clone https://github.com/mdegoo/sublime-bootstrap4.git
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | dropdown                             | Generates a  Dropdown                                  |
-<!-- | dropdown:drpagm                      | Generates a  Dropdown Alignement                       |
+<!--
+| dropdown:drpagm                      | Generates a  Dropdown Alignement                       |
 | dropdown:drpmh                       | Generates a  Dropdown menu header                      | -->
 
 ###### <a name="jumbotron">Jumbotron</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | jumbotron                            | Generates a  Jumbotron                                 |
-<!-- | jumbotron:fluid                      | Generates a  Fluid Jumbotron                           |
+<!--
+| jumbotron:fluid                      | Generates a  Fluid Jumbotron                           |
  -->
 ###### <a name="label">Label</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | label                                | Generates a Label                                      |
-<!-- | label:context                        | Generates a Label context                              |
+<!--
+| label:context                        | Generates a Label context                              |
 | label:pill                           | Generates a Label pill                                 | -->
 
 ###### <a name="alerts">Alerts</a>
@@ -306,7 +318,8 @@ git clone https://github.com/mdegoo/sublime-bootstrap4.git
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | navbar:                              | Generates a  Navbar                                    |
-<!-- | navbar:color                         | Generates a  Navbar color                              |
+<!--
+| navbar:color                         | Generates a  Navbar color                              |
 | navbar:container_out                 | Generates a  Navbar container out                      |
 | navbar:container_in                  | Generates a  Navbar container in                       |
 | navbar:fixed_top                     | Generates a  Navbar fixed top                          |
@@ -331,14 +344,16 @@ git clone https://github.com/mdegoo/sublime-bootstrap4.git
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | progress                             | Generates a  Progress                                  |
-<!-- | progress:context                     | Generates a  Progress context                          |
+<!--
+| progress:context                     | Generates a  Progress context                          |
 | progress:striped                     | Generates a  Progress striped                          | -->
 
 ###### <a name="list-group">List group</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | list-group                           | Generates a  List                                      |
-<!-- | list-group:label                     | Generates a  List label                                |
+<!--
+| list-group:label                     | Generates a  List label                                |
 | list-group:linked                    | Generates a  List linked                               |
 | list-group:button                    | Generates a  List button                               |
 | list-group:disabled_items            | Generates a  List disabled items                       |
