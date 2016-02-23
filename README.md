@@ -76,8 +76,8 @@ Feel free to let me know what else you want added via:
 | Snippets                             | Descriptions                                           |
 | :----------------------------:       | :-----------------------------------------:            |
 | template:cdn                         | Generates a CSS & JS from CDN                          |
-| template:cdn                         | Generates a CSS from CDN                               |
-| template:cdn                         | Generates a CSS & JS from CDN                          |
+| template:cdn_css                     | Generates a CSS from CDN                               |
+| template:cdn_js                      | Generates a CSS & JS from CDN                          |
 | template:html5                       | Generates a Basic HTML5 Template                       |
 | template:blog                        | Generates a Blog Template                              |
 | template:carousel                    | Generates a Carousel Template                          |
@@ -100,7 +100,7 @@ Feel free to let me know what else you want added via:
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | grid:container                       | Generates a container                                  |
-| grid:fluid_container| Generates a fluid container                            |
+<!-- | grid:fluid_container| Generates a fluid container                            |
 | grid:row                             | Generates a row                                        |
 | grid:grid                            | Generates a grid                                       |
 | grid:column                          | Generates a column                                     |
@@ -120,16 +120,16 @@ Feel free to let me know what else you want added via:
 | grid:4colr                           | Generates a Responsive 4 Columns Grid                  |
 | grid:6colr                           | Generates a Responsive 6 Columns Grid                  |
 | grid:12colr                          | Generates a Responsive 12 Columns Grid                 |
-
+ -->
 ###### <a name="media">Media</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :-------------------------------------                 |
 | media                                | Generates a Media                                      |
-| media:right                          | Generates a Media right                                |
+<!-- | media:right                          | Generates a Media right                                |
 | media:medium                         | Generates a Media middle                               |
 | media:bottom                         | Generates a Media bottom                               |
 | media:list                           | Generates a Media List                                 |
-
+ -->
 ###### <a name="responsive-utilities">Responsive Utilities</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
@@ -143,7 +143,7 @@ Feel free to let me know what else you want added via:
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | typography:text_muted                | Generates a  Text Muted                                |
-| typography:display_heading           | Generates a  Display Heading                           |
+<!-- | typography:display_heading           | Generates a  Display Heading                           |
 | typography:lead                      | Generates a  Lead                                      |
 | typography:blockquotes               | Generates a  Blockquotes                               |
 | typography:blockquotes_reverse       | Generates a  Blockquotes Reverse                       |
@@ -157,18 +157,18 @@ Feel free to let me know what else you want added via:
 | typography:image_left -              | Generates an Image Left -                              |
 | typography:image_right -             | Generates an Image Right -                             |
 | typography:image_center -            | Generates an Image Center -                            |
-
+ -->
 ###### <a name="tables">Tables</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | tables:table                         | Generates a  Table                                     |
-| tables:tables                        | Generates a  Tables (full option)                      |
+<!-- | tables:tables                        | Generates a  Tables (full option)                      |
 | tables:head_inverse                  | Generates a  Tables Head Inverse                       |
 | tables:responsive                    | Generates a  Tables Responsive                         |
 | tables:colspan                       | Generates a  Tables Colspan                            |
 | tables:colors_tr                     | Generates a  Tables Colors (tr)                        |
 | tables:colors_td                     | Generates a  Tables Colors (td)                        |
-
+ -->
 ###### <a name="figures">Figures</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
@@ -180,7 +180,7 @@ Feel free to let me know what else you want added via:
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | buttons                              | Generates a  Button                                    |
-| buttons:colors                       | Generates a  Button colors                             |
+<!-- | buttons:colors                       | Generates a  Button colors                             |
 | buttons:outline                      | Generates a  Button Outline                            |
 | buttons:a                            | Generates a  Button < a >                              |
 | buttons:input                        | Generates a  Button < input >                          |
@@ -190,26 +190,26 @@ Feel free to let me know what else you want added via:
 | buttons:state                        | Generates a  Button state                              |
 | buttons:toggle                       | Generates a  Button toggle                             |
 | buttons:plugin Radio                 | Generates a  Button plugin Radio                       |
-
+ -->
 ###### <a name="button-group">Button group</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | button-group                         | Generates a  Button group                              |
-| button-group:toolbar                 | Generates a  Button toolbar                            |
+<!-- | button-group:toolbar                 | Generates a  Button toolbar                            |
 | button-group:group_size              | Generates a  Button group size                         |
-| button-group:dropdown                | Generates a  Button dropdown                           |
+| button-group:dropdown                | Generates a  Button dropdown                           | -->
 
 ###### <a name="button-dropdown">Button dropdown</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | button-dropdown                      | Generates a  Button dropdown                           |
-| button-dropup                        | Generates a  Button dropup                             |
+<!-- | button-dropup                        | Generates a  Button dropup                             | -->
 
 ###### <a name="forms">Forms</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | form                                 | Generates a  Form Controls                             |
-| form:group                           | Generates a  Form group                                |
+<!-- | form:group                           | Generates a  Form group                                |
 | form:inline                          | Generates a  Form inline                               |
 | form:hidden_label                    | Generates a  Form hidden label                         |
 | form:grid                            | Generates a  Form w/ Grid                              |
@@ -227,50 +227,52 @@ Feel free to let me know what else you want added via:
 | form:help_text                       | Generates a  Form Help text                            |
 | form:validation                      | Generates a  Form Validation                           |
 | form:custom_checkbox                 | Generates a  Form Custom checkbox                      |
-| form:custom_radio                    | Generates a  Form Custom radio                         |
+| form:custom_radio                    | Generates a  Form Custom radio                         | -->
 
 ###### <a name="input-group">Input group</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | input-group                          | Generates an Input Group                               |
-| input-group:sizing                   | Generates an Input Group Sizing                        |
+<!-- | input-group:sizing                   | Generates an Input Group Sizing                        |
 | input-group:buttons_addons           | Generates a Buttons addons                             |
 | input-group:Buttons_without_dropdowns| Generates a Buttons w/ dropdowns                       |
 | input-group:segmented_buttons        | Generates a Segmented buttons                          |
-
+ -->
 ###### <a name="dropdowns">Dropdowns</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | dropdown                             | Generates a  Dropdown                                  |
-| dropdown:drpagm                      | Generates a  Dropdown Alignement                       |
-| dropdown:drpmh                       | Generates a  Dropdown menu header                      |
+<!-- | dropdown:drpagm                      | Generates a  Dropdown Alignement                       |
+| dropdown:drpmh                       | Generates a  Dropdown menu header                      | -->
 
 ###### <a name="jumbotron">Jumbotron</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | jumbotron                            | Generates a  Jumbotron                                 |
-| jumbotron:fluid                      | Generates a  Fluid Jumbotron                           |
-
+<!-- | jumbotron:fluid                      | Generates a  Fluid Jumbotron                           |
+ -->
 ###### <a name="label">Label</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | label                                | Generates a Label                                      |
-| label:context                        | Generates a Label context                              |
-| label:pill                           | Generates a Label pill                                 |
+<!-- | label:context                        | Generates a Label context                              |
+| label:pill                           | Generates a Label pill                                 | -->
 
 ###### <a name="alerts">Alerts</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | alerts:success                       | Generates an Alert success                             |
+<!--
 | alerts:info                          | Generates an Alert info                                |
 | alerts:warning                       | Generates an Alert warning                             |
 | alerts:danger                        | Generates an Alert danger                              |
 | alerts:dismissing                    | Generates an Alert dismissing                          |
-
+ -->
 ###### <a name="card">Card</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | Cards:                               | Generates a  Cards                                     |
+<!--
 | Cards:content_type                   | Generates a  Cards content type                        |
 | Cards:sizing                         | Generates a  Cards sizing                              |
 | Cards:text_alignment                 | Generates a  Cards Text alignment                      |
@@ -282,29 +284,30 @@ Feel free to let me know what else you want added via:
 | Cards:columns                        | Generates a  Cards columns                             |
 | Cards:groups                         | Generates a  Cards groups                              |
 | Cards:groups                         | Generates a  Cards groups                              |
-
+ -->
 ###### <a name="navs">Navs</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | nav                                  | Generates a  Nav                                       |
+<!--
 | nav:inline                           | Generates a  Nav inline                                |
 | nav:tabs                             | Generates a  Nav tabs                                  |
 | nav:pills                            | Generates a  Nav pills                                 |
 | nav:pills_stacked                    | Generates a  Nav pills stacked                         |
 | nav:tabs_dropdown                    | Generates a  Nav tabs w/ dropdown                      |
-
+ -->
 ###### <a name="navbar">Navbar</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | navbar:                              | Generates a  Navbar                                    |
-| navbar:color                         | Generates a  Navbar color                              |
+<!-- | navbar:color                         | Generates a  Navbar color                              |
 | navbar:container_out                 | Generates a  Navbar container out                      |
 | navbar:container_in                  | Generates a  Navbar container in                       |
 | navbar:fixed_top                     | Generates a  Navbar fixed top                          |
 | navbar:fixed_bottom                  | Generates a  Navbar fixed bottom                       |
 | navbar:collapse                      | Generates a  Navbar collapse                           |
 | navbar:toggler                       | Generates a  Navbar toggler                            |
-
+ -->
 ###### <a name="breadcrumb">Breadcrumb</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
@@ -314,34 +317,37 @@ Feel free to let me know what else you want added via:
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | pagination                           | Generates a  Pagination                                |
+<!--
 | pagination:sz                        | Generates a  Pagination                                |
 | pagination:pager                     | Generates a  Pagination pager                          |
-
+ -->
 ###### <a name="progress">Progress</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
 | progress                             | Generates a  Progress                                  |
-| progress:context                     | Generates a  Progress context                          |
-| progress:striped                     | Generates a  Progress striped                          |
+<!-- | progress:context                     | Generates a  Progress context                          |
+| progress:striped                     | Generates a  Progress striped                          | -->
 
 ###### <a name="list-group">List group</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
-| list-group:                          | Generates a  List                                      |
-| list-group:label                     | Generates a  List label                                |
+| list-group                           | Generates a  List                                      |
+<!-- | list-group:label                     | Generates a  List label                                |
 | list-group:linked                    | Generates a  List linked                               |
 | list-group:button                    | Generates a  List button                               |
 | list-group:disabled_items            | Generates a  List disabled items                       |
 | list-group:context                   | Generates a  List context                              |
-| list-group:custom_content            | Generates a  List custom content                       |
+| list-group:custom_content            | Generates a  List custom content                       | -->
 
 ###### <a name="modal">Modal</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
-| modal:                               | Generates a  Modal                                     |
+| modal                                | Generates a  Modal                                     |
+<!--
 | modal:sizes                          | Generates a  Modal sizes                               |
 | modal:grid                           | Generates a  Modal grid                                |
 | modal:content_based                  | Generates a  Modal content based                       |
+-->
 
 ###### <a name="scrollspy">Scrollspy</a>
 | Snippets                             | Descriptions                                           |

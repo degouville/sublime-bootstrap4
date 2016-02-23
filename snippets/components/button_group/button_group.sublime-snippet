@@ -6,7 +6,7 @@
 			<button type="button" class="btn btn-secondary">${2:Right}</button>
 		</div>
 ]]></content>
-	<tabTrigger>...</tabTrigger>
+	<tabTrigger>button_group</tabTrigger>
 </snippet>
 
 <!--
