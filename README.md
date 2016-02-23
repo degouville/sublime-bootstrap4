@@ -38,8 +38,6 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
   - Snippet support for layout.
   - Snippet support for content.
 
-
-
 ---
 
 
@@ -109,11 +107,11 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 ###### <a name="grid">Grid</a>
 | Snippets                             | Descriptions                                           |
 | :-------------                       | :------------------------------------                  |
+| grid                                 | Generates a grid                                       |
 | grid:container                       | Generates a container                                  |
+| grid:row                             | Generates a row                                        |
 <!--
 | grid:fluid_container| Generates a fluid container                            |
-| grid:row                             | Generates a row                                        |
-| grid:grid                            | Generates a grid                                       |
 | grid:column                          | Generates a column                                     |
 | grid:col-xs                          | Generates a extra small column                         |
 | grid:col-sm                          | Generates a small column                               |

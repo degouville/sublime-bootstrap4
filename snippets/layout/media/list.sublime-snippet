@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+<ul class="media-list">
+  	<li class="media">
+	    <a class="media-left href="$1#">
+	      	<img class="media-object" data-src="$2" alt="$3">
+	    </a>
+	    <div class="media-body">
+	      	<h4 class="media-heading">${4:Media heading}</h4>
+	      	$5
+	    </div>
+	  </li>
+	  <li class="media">
+	    <a class="media-left href="$1#">
+	      	<img class="media-object" data-src="$2" alt="$3">
+	    </a>
+	    <div class="media-body">
+	      	<h4 class="media-heading">${4:Media heading}</h4>
+	      	$5
+	    </div>
+	</li>
+</ul>
+]]></content>
+	<tabTrigger>media:list</tabTrigger>
+</snippet>
