@@ -7,16 +7,26 @@ A sublime plugin complete with Bootstrap 4 snippets
 
 Feel free to let me know what else you want added via:
 
-- Twitter [@de_gouville](https://twitter.com/de_gouville)
-- [Issues](https://github.com/mdegoo/sublime-bootstrap4/issues)
+  - Twitter [@de_gouville][3]
+  - Slack   [@de_gouville][4]
+  - Github  [Issues][5]
 
 
-Install:
+##### Install :
+There are 3 methods for installing this plugin.
+
+1. Search for "Bootstrap 3 Snippets" via the "Package Control: Install Packages" menu.
+**Note:** If you don't have Sublime Package Control installed, you can find out how to install it here [https://sublime.wbond.net/installation](https://sublime.wbond.net/installation)
+
+2. Clone the repository into your Sublime Text 2/3 packages directory.
 ```bash
-apm install atom-bootstrap4
+git clone https://github.com/mdegoo/sublime-bootstrap4.git
 ```
 
-Key Features:
+3. Download the .zip file and unzip it into your Sublime Text 2/3 packages directory.
+**Note:** You can find your Sublime Text 2/3 packages directory by going to Preferences > Browse Packages.
+
+##### Key Features:
 
   - Supports autocompletion of all helper classes in JavaScript, CSS and HTML
   - Snippet support for all components.
@@ -24,11 +34,7 @@ Key Features:
   - Snippet support for layout.
   - Snippet support for content.
 
-Feel free to let me know what else you want added via:
 
-  - Twitter [@de_gouville][3]
-  - Slack   [@de_gouville][4]
-  - Github  [Issues][5]
 
 ---
 
@@ -74,7 +80,7 @@ Feel free to let me know what else you want added via:
 
 ### <a name="templates">Templates</a>
 | Snippets                             | Descriptions                                           |
-| :----------------------------:       | :-----------------------------------------:            |
+| :----------------------------        | :-----------------------------------------             |
 | template:cdn                         | Generates a CSS & JS from CDN                          |
 | template:cdn_css                     | Generates a CSS from CDN                               |
 | template:cdn_js                      | Generates a CSS & JS from CDN                          |
