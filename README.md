@@ -157,9 +157,9 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
 | typography:text_muted                | Generates a  Text Muted               |
-<!--
 | typography:display_heading           | Generates a  Display Heading          |
 | typography:lead                      | Generates a  Lead                     |
+<!--
 | typography:blockquotes               | Generates a  Blockquotes              |
 | typography:blockquotes_reverse       | Generates a  Blockquotes Reverse      |
 | typography:list_unstyled             | Generates a  List Unstyled            |
