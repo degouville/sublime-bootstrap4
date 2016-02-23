@@ -19,9 +19,7 @@ There are 3 methods for installing this plugin.
 **Note:** If you don't have Sublime Package Control installed, you can find out how to install it here [https://sublime.wbond.net/installation](https://sublime.wbond.net/installation)
 
 2. Clone the repository into your Sublime Text 2/3 packages directory.
-```bash
-git clone https://github.com/mdegoo/sublime-bootstrap4.git
-```
+`git clone https://github.com/mdegoo/sublime-bootstrap4.git`
 
 3. Download the .zip file and unzip it into your Sublime Text 2/3 packages directory.
 **Note:** You can find your Sublime Text 2/3 packages directory by going to Preferences > Browse Packages.
