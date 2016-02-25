@@ -88,7 +88,7 @@
 				<span class="sr-only">Toggle Dropdown</span>
 			</button>
 			<div class="dropdown-menu">
-				${1:<!-- Dropdown menu links -->}
+				${1:...}
 			</div>
 		</div>
 	"""
