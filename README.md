@@ -1,7 +1,7 @@
 Bootstrap 4 - Sublime Plugin
 ============================
 
-### A sublime plugin complete with Bootstrap 4 snippets
+#### A sublime plugin complete with Bootstrap 4 snippets
 
 ---
 
