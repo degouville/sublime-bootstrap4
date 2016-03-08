@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<div class="btn-group btn-group-${1:lg|sm|xs}" role="group" aria-label="${2:Toolbar with button groups}">
+	$3
+</div>
+]]></content>
+	<tabTrigger>button_group:size</tabTrigger>
+</snippet>
