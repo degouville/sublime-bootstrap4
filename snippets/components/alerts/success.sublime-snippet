@@ -1,19 +1,13 @@
 <snippet>
 	<content><![CDATA[
-	<div class="alert alert-success" role="alert">
-		${1:<strong>Well done!</strong> You successfully read this important alert message.}
-	</div>
+<div class="alert alert-success" role="alert">
+	${1:<strong>Well done!</strong> You successfully read this important alert message.}
+</div>
 ]]></content>
 	<tabTrigger>alert:success</tabTrigger>
 </snippet>
 
-<!-- 'Alert success - Bootstrap 4':
-	'prefix': 'alesu'
-	'body': """
-		<div class="alert alert-success" role="alert">
-			${1:<strong>Well done!</strong> You successfully read this important alert message.}
-		</div>
-	"""
+<!--
 
 'Alert info - Bootstrap 4':
 	'prefix': 'alein'
