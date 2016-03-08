@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<div class="dropdown open">
+	<button class="btn btn-secondary dropdown-toggle" type="button" id="${3:dropdownMenu1}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		${2:Dropdown}
+	</button>
+	<div class="dropdown-menu" aria-labelledby="${3:dropdownMenu1}">
+		<button class="dropdown-item" type="button">{$1:Action}</button>
+		<button class="dropdown-item" type="button">{$1:Another action}</button>
+		<button class="dropdown-item" type="button">{$1:Something else here}</button>
+	</div>
+</div>
+]]></content>
+	<tabTrigger>dropdown:button</tabTrigger>
+</snippet>

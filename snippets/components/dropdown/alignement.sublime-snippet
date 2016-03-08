@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<div class="dropdown-menu dropdown-menu-right" aria-labelledby="${2:dLabel}">
+	${1:...}
+</div>
+]]></content>
+	<tabTrigger>dropdown:align</tabTrigger>
+</snippet>

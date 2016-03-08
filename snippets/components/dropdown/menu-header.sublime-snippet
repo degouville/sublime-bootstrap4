@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<div class="dropdown-menu">
+	<h6 class="dropdown-header">${3:Dropdown header}</h6>
+	<a class="dropdown-item" href="${1:#}">${2:Action}</a>
+	<a class="dropdown-item" href="${1:#}">${2:Another action}</a>
+</div>
+]]></content>
+	<tabTrigger>dropdown:menu:header</tabTrigger>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<div class="dropdown-menu">
+	<a class="dropdown-item" href="${1:#}">${2:Regular link}</a>
+	<a class="dropdown-item disabled" href="${1:#}">${2:Disabled link}</a>
+	<a class="dropdown-item" href="${1:#}">${2:Another link}</a>
+</div>
+]]></content>
+	<tabTrigger>dropdown:menu:disabled</tabTrigger>
+</snippet>
