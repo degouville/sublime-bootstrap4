@@ -4,12 +4,14 @@ Bootstrap 4 - Sublime Plugin
 A sublime plugin complete with Bootstrap 4 snippets
 
 ---
+![](https://d13yacurqjgara.cloudfront.net/users/501563/screenshots/2273297/sublime_text_el_capitan_preview.png)
+
 
 Feel free to let me know what else you want added via:
 
   - Twitter [@de_gouville][3]
   - Slack   [@de_gouville][4]
-  - b  [     Issues][5]
+  - GitHub  [Issues][5]
 
 
 ##### Install :
