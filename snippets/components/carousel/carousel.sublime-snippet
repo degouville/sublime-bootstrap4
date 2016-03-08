@@ -29,18 +29,3 @@
 ]]></content>
 	<tabTrigger>carousel</tabTrigger>
 </snippet>
-
-<!--
-
-'Carousel caption - Bootstrap 4':
-	'prefix': 'caroca'
-	'body': """
-		<div class="carousel-item">
-			<img src="${1:...}" alt="${2:...}">
-			<div class="carousel-caption">
-				<h3>${3:...}</h3>
-				<p>${4:...}</p>
-			</div>
-		</div>
-	"""
- -->
