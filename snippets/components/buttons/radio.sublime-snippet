@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<div class="btn-group" data-toggle="buttons">
+	<label class="btn btn-primary active">
+		<input type="radio" name="options" id="option1" autocomplete="off" checked>$1
+	</label>
+	<label class="btn btn-primary">
+		<input type="radio" name="options" id="option2" autocomplete="off">$2
+	</label>
+	<label class="btn btn-primary">
+		<input type="radio" name="options" id="option3" autocomplete="off">$3
+	</label>
+</div>
+]]></content>
+	<tabTrigger>button:radio</tabTrigger>
+</snippet>

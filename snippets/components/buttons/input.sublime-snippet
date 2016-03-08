@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<input class="btn btn-primary" type="button" value="$2">
+]]></content>
+	<tabTrigger>button:input</tabTrigger>
+</snippet>

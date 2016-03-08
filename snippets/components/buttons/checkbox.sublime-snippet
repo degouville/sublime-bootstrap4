@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<div class="btn-group" data-toggle="buttons">
+	<label class="btn btn-primary active">
+		<input type="checkbox" checked autocomplete="off">$1
+	</label>
+	<label class="btn btn-primary">
+		<input type="checkbox" autocomplete="off">$2
+	</label>
+	<label class="btn btn-primary">
+		<input type="checkbox" autocomplete="off">$3
+	</label>
+</div>
+]]></content>
+	<tabTrigger>button:checkbox</tabTrigger>
+</snippet>
