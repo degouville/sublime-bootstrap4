@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<div class="card">
+	<img class="card-img-top" data-src="${2:holder.js/100%x180/?text=Image cap}" alt="${3:Card image cap}">
+	<div class="card-block">
+		<p class="card-text">${1:Some quick example text to build on the card title and make up the bulk of the card's content.}</p>
+	</div>
+</div>
+]]></content>
+	<tabTrigger>cards:content_type:list</tabTrigger>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<div class="card">
+	<div class="card-block">
+		<h4 class="card-title">${1:Card title}</h4>
+		<h6 class="card-subtitle text-muted">${2:Support card subtitle}</h6>
+	</div>
+	<img data-src="${3:holder.js/100%x180/?text=Image}" alt="${4:Card image}">
+	<div class="card-block">
+		<p class="card-text">${5:Some quick example text to build on the card title and make up the bulk of the card's content.}</p>
+		<a href="${6:#}" class="card-link">${7:Card link}</a>
+		<a href="${6:#}" class="card-link">${7:Another link}</a>
+	</div>
+</div>
+]]></content>
+	<tabTrigger>cards:content_type:title</tabTrigger>
+</snippet>

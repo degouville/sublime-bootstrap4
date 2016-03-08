@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<div class="card card-inverse card-${1:primary|success|info|warning|danger} text-center">
+	<div class="card-block">
+		<blockquote class="card-blockquote">
+			<p>${7:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.}</p>
+			<footer>${8:Someone famous in }<cite title="${9:Source Title}">${9:Source Title}</cite></footer>
+		</blockquote>
+	</div>
+</div>
+]]></content>
+	<tabTrigger>cards:background:color</tabTrigger>
+</snippet>
