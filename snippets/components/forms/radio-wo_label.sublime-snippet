@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<div class="radio">
+	<label>
+		<input type="radio" name="${1:blankRadio}" id="${2:blankRadio1}" value="option1">
+	</label>
+</div>
+]]></content>
+	<tabTrigger>form:radio:wo_label</tabTrigger>
+</snippet>

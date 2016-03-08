@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+<form>
+	<fieldset disabled>
+		<div class="form-group">
+			<label for="disabledTextInput">Disabled input</label>
+			<input type="text" id="disabledTextInput" class="form-control" placeholder="${10:Disabled input}">
+		</div>
+		<div class="form-group">
+			<label for="disabledSelect">Disabled select menu</label>
+			<select id="disabledSelect" class="form-control">
+				<option>${1:Disabled select}</option>
+			</select>
+		</div>
+		<div class="checkbox">
+			<label>
+				<input type="checkbox"> Can't check this
+			</label>
+		</div>
+		<button type="submit" class="btn btn-primary">Submit</button>
+	</fieldset>
+</form>
+]]></content>
+	<tabTrigger>form:disabled</tabTrigger>
+</snippet>

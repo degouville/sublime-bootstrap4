@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+	<label class="sr-only" for="${1:exampleInputEmail3}">Email address</label>
+	<input type="email" class="form-control" id="${1:exampleInputEmail3}" placeholder="${10:Enter email}">
+</div>
+]]></content>
+	<tabTrigger>form:hidden</tabTrigger>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<label class="checkbox-inline">
+	<input type="checkbox" id="${1:inlineCheckbox1}" value="${2:option1}"> ${3:1}
+</label>
+<label class="checkbox-inline">
+	<input type="checkbox" id="${1:inlineCheckbox2}" value="${2:option2}"> ${3:2}
+</label>
+<label class="checkbox-inline">
+	<input type="checkbox" id="${1:inlineCheckbox3}" value="${2:option3}"> ${3:3}
+</label>
+]]></content>
+	<tabTrigger>form:checkbox:inline</tabTrigger>
+</snippet>

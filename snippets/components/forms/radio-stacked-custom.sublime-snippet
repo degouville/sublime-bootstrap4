@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<div class="c-inputs-stacked">
+	<label class="c-input c-radio">
+		<input id="radioStacked1" name="radio-stacked" type="radio">
+		<span class="c-indicator"></span>
+		Toggle this custom radio
+	</label>
+	<label class="c-input c-radio">
+		<input id="radioStacked2" name="radio-stacked" type="radio">
+		<span class="c-indicator"></span>
+		Or toggle this other custom radio
+	</label>
+</div>
+]]></content>
+	<tabTrigger>form:radio:stacked:custom</tabTrigger>
+</snippet>

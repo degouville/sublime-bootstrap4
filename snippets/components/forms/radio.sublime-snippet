@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<div class="radio">
+	<label>
+		<input type="radio" name="${1:exampleRadios}" id="${2:exampleRadios1}" value="${3:option1}" checked>
+		${4:Option one is this and that&mdash;be sure to include why it's great}
+	</label>
+</div>
+<div class="radio">
+	<label>
+		<input type="radio" name="${1:exampleRadios}" id="${2:exampleRadios2}" value="${3:option2}">
+		${4:Option two can be something else and selecting it will deselect option one}
+	</label>
+</div>
+<div class="radio disabled">
+	<label>
+		<input type="radio" name="${1:exampleRadios}" id="${2:exampleRadios3}" value="${3:option3}" disabled>
+		${4:Option three is disabled}
+	</label>
+</div>
+]]></content>
+	<tabTrigger>form:radio</tabTrigger>
+</snippet>

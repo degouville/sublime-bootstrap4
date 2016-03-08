@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<select class="form-control {2:form-control-{1:sm|lg}}">${3}</select>
+]]></content>
+	<tabTrigger>form:input:sizing</tabTrigger>
+</snippet>

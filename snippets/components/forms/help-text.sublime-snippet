@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<small class="text-muted">
+	Some inline text with a small tag looks like this.
+</small>
+]]></content>
+	<tabTrigger>form:text:help</tabTrigger>
+</snippet>

@@ -1,536 +1,69 @@
 <snippet>
 	<content><![CDATA[
-		<form>
-			<fieldset class="form-group">
-				<label for="exampleInputEmail1">Email address</label>
-				<input type="email" class="form-control" id="exampleInputEmail1" placeholder="${10:Enter email}">
-				<small class="text-muted">We'll never share your email with anyone else.</small>
-			</fieldset>
-			<fieldset class="form-group">
-				<label for="exampleInputPassword1">Password</label>
-				<input type="password" class="form-control" id="exampleInputPassword1" placeholder="${10:Password}">
-			</fieldset>
-			<fieldset class="form-group">
-				<label for="${1:exampleSelect1}">Example select</label>
-				<select class="form-control" id="e${1:xampleSelect}1">
-					<option>1${2:</o}ption>
-					<option>${2:2}</option>
-					<option>${2:3}</option>
-					<option>${2:4}</option>
-					<option>${2:5}</option>
-				</select>
-			</fieldset>
-			<fieldset class="form-group">
-				<label for="${1:exampleSelect2}">Example multiple select</label>
-				<select multiple class="form-control" id="${1:exampleSelect2}">
-					<option>${2:1}</option>
-					<option>${2:2}</option>
-					<option>${2:3}</option>
-					<option>${2:4}</option>
-					<option>${2:5}</option>
-				</select>
-			</fieldset>
-			<fieldset class="form-group">
-				<label for="exampleTextarea">Example textarea</label>
-				<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-			</fieldset>
-			<fieldset class="form-group">
-				<label for="exampleInputFile">File input</label>
-				<input type="file" class="form-control-file" id="exampleInputFile">
-				<small class="text-muted">This is some placeholder b${10:lock-level help text for the above input. It's a bit lighter and easily wraps to a new line.</smal}l>
-			</fieldset>
-			<div class="radio">
-				<label>
-					<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-					Option one is this and that&mdash;be sure to include why it's great
-				</label>
-			</div>
-			<div class="radio">
-				<label>
-					<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-					Option two can be something else and selecting it will deselect option one
-				</label>
-			</div>
-			<div class="radio disabled">
-				<label>
-					<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
-					Option three is disabled
-				</label>
-			</div>
-			<div class="checkbox">
-				<label>
-					<input type="checkbox"> Check me out
-				</label>
-			</div>
-			<button type="submit" class="btn btn-primary">Submit</button>
-		</form>
+<form>
+	<fieldset class="form-group">
+		<label for="exampleInputEmail1">Email address</label>
+		<input type="email" class="form-control" id="exampleInputEmail1" placeholder="${10:Enter email}">
+		<small class="text-muted">We'll never share your email with anyone else.</small>
+	</fieldset>
+	<fieldset class="form-group">
+		<label for="exampleInputPassword1">Password</label>
+		<input type="password" class="form-control" id="exampleInputPassword1" placeholder="${10:Password}">
+	</fieldset>
+	<fieldset class="form-group">
+		<label for="${1:exampleSelect1}">Example select</label>
+		<select class="form-control" id="e${1:xampleSelect}1">
+			<option>1${2:</o}ption>
+			<option>${2:2}</option>
+			<option>${2:3}</option>
+			<option>${2:4}</option>
+			<option>${2:5}</option>
+		</select>
+	</fieldset>
+	<fieldset class="form-group">
+		<label for="${1:exampleSelect2}">Example multiple select</label>
+		<select multiple class="form-control" id="${1:exampleSelect2}">
+			<option>${2:1}</option>
+			<option>${2:2}</option>
+			<option>${2:3}</option>
+			<option>${2:4}</option>
+			<option>${2:5}</option>
+		</select>
+	</fieldset>
+	<fieldset class="form-group">
+		<label for="exampleTextarea">Example textarea</label>
+		<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+	</fieldset>
+	<fieldset class="form-group">
+		<label for="exampleInputFile">File input</label>
+		<input type="file" class="form-control-file" id="exampleInputFile">
+		<small class="text-muted">This is some placeholder b${10:lock-level help text for the above input. It's a bit lighter and easily wraps to a new line.</smal}l>
+	</fieldset>
+	<div class="radio">
+		<label>
+			<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+			Option one is this and that&mdash;be sure to include why it's great
+		</label>
+	</div>
+	<div class="radio">
+		<label>
+			<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+			Option two can be something else and selecting it will deselect option one
+		</label>
+	</div>
+	<div class="radio disabled">
+		<label>
+			<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+			Option three is disabled
+		</label>
+	</div>
+	<div class="checkbox">
+		<label>
+			<input type="checkbox"> Check me out
+		</label>
+	</div>
+	<button type="submit" class="btn btn-primary">Submit</button>
+</form>
 ]]></content>
 	<tabTrigger>form_controls</tabTrigger>
 </snippet>
-
-<!--
-# Forms
-'Form Controls - Bootstrap 4':
-	'prefix': 'form'
-	'body': """
-		<form>
-			<fieldset class="form-group">
-				<label for="exampleInputEmail1">Email address</label>
-				<input type="email" class="form-control" id="exampleInputEmail1" placeholder="${10:Enter email}">
-				<small class="text-muted">We'll never share your email with anyone else.</small>
-			</fieldset>
-			<fieldset class="form-group">
-				<label for="exampleInputPassword1">Password</label>
-				<input type="password" class="form-control" id="exampleInputPassword1" placeholder="${10:Password}">
-			</fieldset>
-			<fieldset class="form-group">
-				<label for="${1:exampleSelect1}">Example select</label>
-				<select class="form-control" id="e${1:xampleSelect}1">
-					<option>1${2:</o}ption>
-					<option>${2:2}</option>
-					<option>${2:3}</option>
-					<option>${2:4}</option>
-					<option>${2:5}</option>
-				</select>
-			</fieldset>
-			<fieldset class="form-group">
-				<label for="${1:exampleSelect2}">Example multiple select</label>
-				<select multiple class="form-control" id="${1:exampleSelect2}">
-					<option>${2:1}</option>
-					<option>${2:2}</option>
-					<option>${2:3}</option>
-					<option>${2:4}</option>
-					<option>${2:5}</option>
-				</select>
-			</fieldset>
-			<fieldset class="form-group">
-				<label for="exampleTextarea">Example textarea</label>
-				<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-			</fieldset>
-			<fieldset class="form-group">
-				<label for="exampleInputFile">File input</label>
-				<input type="file" class="form-control-file" id="exampleInputFile">
-				<small class="text-muted">This is some placeholder b${10:lock-level help text for the above input. It's a bit lighter and easily wraps to a new line.</smal}l>
-			</fieldset>
-			<div class="radio">
-				<label>
-					<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-					Option one is this and that&mdash;be sure to include why it's great
-				</label>
-			</div>
-			<div class="radio">
-				<label>
-					<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-					Option two can be something else and selecting it will deselect option one
-				</label>
-			</div>
-			<div class="radio disabled">
-				<label>
-					<input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
-					Option three is disabled
-				</label>
-			</div>
-			<div class="checkbox">
-				<label>
-					<input type="checkbox"> Check me out
-				</label>
-			</div>
-			<button type="submit" class="btn btn-primary">Submit</button>
-		</form>
-	"""
-
-'Form group - Bootstrap 4':
-	'prefix': 'formgr'
-	'body': """
-		<form>
-			<fieldset class="form-group">
-				<label for="formGroupExampleInput">Example label</label>
-				<input type="text" class="form-control" id="formGroupExampleInput" placeholder="${10:Example input}">
-			</fieldset>
-			<fieldset class="form-group">
-				<label for="formGroupExampleInput2">Another label</label>
-				<input type="text" class="form-control" id="formGroupExampleInput2" placeholder="${10:Another input}">
-			</fieldset>
-		</form>
-	"""
-
-'Form inline - Bootstrap 4':
-	'prefix': 'formin'
-	'body': """
-		<form class="form-inline">
-			<div class="form-group">
-				<label for="${1:exampleInputName2}">Name</label>
-				<input type="text" class="form-control" id="${1:exampleInputName2}" placeholder="${10:Jane Doe}">
-			</div>
-			<div class="form-group">
-				<label for="${2:exampleInputEmail2}">Email</label>
-				<input type="email" class="form-control" id="${2:exampleInputEmail2}" placeholder="${10:jane.doe@example.com}">
-			</div>
-			<button type="submit" class="btn btn-primary">Send invitation</button>
-		</form>
-	"""
-
-'Form hidden label - Bootstrap 4':
-	'prefix': 'formhl'
-	'body': """
-		<div class="form-group">
-			<label class="sr-only" for="${1:exampleInputEmail3}">Email address</label>
-			<input type="email" class="form-control" id="${1:exampleInputEmail3}" placeholder="${10:Enter email}">
-		</div>
-	"""
-
-'Form w/ Grid - Bootstrap 4':
-	'prefix': 'formgrid'
-	'body': """
-		<form>
-			<div class="form-group row">
-				<label for="${1:inputEmail3}" class="col-sm-2 form-control-label">Email</label>
-				<div class="col-sm-10">
-					<input type="email" class="form-control" id="${1:inputEmail3}" placeholder="${10:Email}">
-				</div>
-			</div>
-			<div class="form-group row">
-				<label for="${4:inputPassword3}" class="col-sm-2 form-control-label">Password</label>
-				<div class="col-sm-10">
-					<input type="password" class="form-control" id="${4:inputPassword3}" placeholder="${10:Password}">
-				</div>
-			</div>
-			<div class="form-group row">
-				<label class="col-sm-2">Radios</label>
-				<div class="col-sm-10">
-					<div class="radio">
-						<label>
-							<input type="radio" name="gridRadios" id="${5:gridRadios1}" value="${6:option1}" checked>
-							${7:Option one is this and that&mdash;be sure to include why it's great}
-						</label>
-					</div>
-					<div class="radio">
-						<label>
-							<input type="radio" name="gridRadios" id="${5:gridRadios2}" value="${6:option2}">
-							${7:Option two can be something else and selecting it will deselect option one}
-						</label>
-					</div>
-					<div class="radio disabled">
-						<label>
-							<input type="radio" name="gridRadios" id="${5:gridRadios3}" value="${6:option3}" disabled>
-							${7:Option three is disabled}
-						</label>
-					</div>
-				</div>
-			</div>
-			<div class="form-group row">
-				<label class="col-sm-2">Checkbox</label>
-				<div class="col-sm-10">
-					<div class="checkbox">
-						<label>
-							<input type="checkbox"> Check me out
-						</label>
-					</div>
-				</div>
-			</div>
-			<div class="form-group row">
-				<div class="col-sm-offset-2 col-sm-10">
-					<button type="submit" class="btn btn-secondary">Sign in</button>
-				</div>
-			</div>
-		</form>
-	"""
-
-'Form Checkbox - Bootstrap 4':
-	'prefix': 'formcb'
-	'body': """
-		<div class="checkbox">
-			<label>
-				<input type="checkbox" value="">
-				${1:Option one is this and that&mdash;be sure to include why it's great}
-			</label>
-		</div>
-		<div class="checkbox disabled">
-			<label>
-				<input type="checkbox" value="" disabled>
-				${1:Option two is disabled}
-			</label>
-		</div>
-	"""
-
-'Form Checkbox inline - Bootstrap 4':
-	'prefix': 'formcbin'
-	'body': """
-		<label class="checkbox-inline">
-			<input type="checkbox" id="${1:inlineCheckbox1}" value="${2:option1}"> ${3:1}
-		</label>
-		<label class="checkbox-inline">
-			<input type="checkbox" id="${1:inlineCheckbox2}" value="${2:option2}"> ${3:2}
-		</label>
-		<label class="checkbox-inline">
-			<input type="checkbox" id="${1:inlineCheckbox3}" value="${2:option3}"> ${3:3}
-		</label>
-	"""
-
-'Form Checkbox w/o label - Bootstrap 4':
-	'prefix': 'formcbwola'
-	'body': """
-		<div class="checkbox">
-			<label>
-				<input type="checkbox" id="${1:blankCheckbox}" value="${2:option1}">
-			</label>
-		</div>
-	"""
-
-'Form Radio - Bootstrap 4':
-	'prefix': 'formra'
-	'body': """
-		<div class="radio">
-			<label>
-				<input type="radio" name="${1:exampleRadios}" id="${2:exampleRadios1}" value="${3:option1}" checked>
-				${4:Option one is this and that&mdash;be sure to include why it's great}
-			</label>
-		</div>
-		<div class="radio">
-			<label>
-				<input type="radio" name="${1:exampleRadios}" id="${2:exampleRadios2}" value="${3:option2}">
-				${4:Option two can be something else and selecting it will deselect option one}
-			</label>
-		</div>
-		<div class="radio disabled">
-			<label>
-				<input type="radio" name="${1:exampleRadios}" id="${2:exampleRadios3}" value="${3:option3}" disabled>
-				${4:Option three is disabled}
-			</label>
-		</div>
-	"""
-
-'Form Radio inline - Bootstrap 4':
-	'prefix': 'formrain'
-	'body': """
-		<label class="radio-inline">
-			<input type="radio" name="${1:inlineRadioOptions}" id="${2:inlineRadio1}" value="${3:option1}"> ${3:1}
-		</label>
-		<label class="radio-inline">
-			<input type="radio" name="${1:inlineRadioOptions}" id="${2:inlineRadio2}" value="${3:option2}"> ${3:2}
-		</label>
-		<label class="radio-inline">
-			<input type="radio" name="${1:inlineRadioOptions}" id="${2:inlineRadio3}" value="${3:option3}"> ${3:3}
-		</label>
-	"""
-
-'Form Radio w/o label - Bootstrap 4':
-	'prefix': 'formrawola'
-	'body': """
-		<div class="radio">
-			<label>
-				<input type="radio" name="${1:blankRadio}" id="${2:blankRadio1}" value="option1">
-			</label>
-		</div>
-	"""
-
-'Form Static Controls - Bootstrap 4':
-	'prefix': 'formsc'
-	'body': """
-		<form class="form-horizontal">
-			<div class="form-group">
-				<label class="col-sm-2 control-label">Email</label>
-				<div class="col-sm-10">
-					<p class="form-control-static">email@example.com</p>
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="${1:inputPassword}" class="col-sm-2 control-label">Password</label>
-				<div class="col-sm-10">
-					<input type="password" class="form-control" id="${1:inputPassword}" placeholder="${10:Password}">
-				</div>
-			</div>
-		</form>
-	"""
-
-'Form Static Controls inline - Bootstrap 4':
-	'prefix': 'formscin'
-	'body': """
-		<form class="form-inline">
-			<div class="form-group">
-				<label class="sr-only">Email</label>
-				<p class="form-control-static">email@example.com</p>
-			</div>
-			<div class="form-group">
-				<label for="${1:inputPassword2}" class="sr-only">Password</label>
-				<input type="password" class="form-control" id="${1:inputPassword2}" placeholder="${10:Password}">
-			</div>
-			<button type="submit" class="btn btn-primary">Confirm identity</button>
-		</form>
-	"""
-
-'Form disabled state - Bootstrap 4':
-	'prefix': 'formdis'
-	'body': """
-		<form>
-			<fieldset disabled>
-				<div class="form-group">
-					<label for="disabledTextInput">Disabled input</label>
-					<input type="text" id="disabledTextInput" class="form-control" placeholder="${10:Disabled input}">
-				</div>
-				<div class="form-group">
-					<label for="disabledSelect">Disabled select menu</label>
-					<select id="disabledSelect" class="form-control">
-						<option>${1:Disabled select}</option>
-					</select>
-				</div>
-				<div class="checkbox">
-					<label>
-						<input type="checkbox"> Can't check this
-					</label>
-				</div>
-				<button type="submit" class="btn btn-primary">Submit</button>
-			</fieldset>
-		</form>
-	"""
-
-'Form Readonly - Bootstrap 4':
-	'prefix': 'formreo'
-	'body': """
-		<input class="form-control" type="text" placeholder="${10:Readonly input here…" readonl}y>
-	"""
-
-'Form input sizing - Bootstrap 4':
-	'prefix': 'formiptsz'
-	'body': """
-		<input class="form-control form-control-lg" type="text" placeholder="${10:.input-lg}">
-		<input class="form-control" type="text" placeholder="${10:Default input}">
-		<input class="form-control form-control-sm" type="text" placeholder="${10:.input-sm}">
-	"""
-
-'Form select sizing - Bootstrap 4':
-	'prefix': 'formsltsz'
-	'body': """
-		<select class="form-control form-control-lg"></select>
-		<select class="form-control"></select>
-		<select class="form-control form-control-sm"></select>
-	"""
-
-'Form column sizing - Bootstrap 4':
-	'prefix': 'formcolsz'
-	'body': """
-		<div class="row">
-			<div class="col-xs-2">
-				<input type="text" class="form-control" placeholder="${10:.col-xs-2}">
-			</div>
-			<div class="col-xs-3">
-				<input type="text" class="form-control" placeholder="${10:.col-xs-3}">
-			</div>
-			<div class="col-xs-4">
-				<input type="text" class="form-control" placeholder="${10:.col-xs-4}">
-			</div>
-		</div>
-	"""
-
-'Form Help text - Bootstrap 4':
-	'prefix': 'formht'
-	'body': """
-		<small class="text-muted">
-			Some inline text with a small tag looks like this.
-		</small>
-	"""
-
-'Form Validation - Bootstrap 4':
-	'prefix': 'formval'
-	'body': """
-		<div class="form-group has-success">
-			<label class="control-label" for="inputSuccess1">Input with success</label>
-			<input type="text" class="form-control form-control-success" id="inputSuccess1">
-		</div>
-		<div class="form-group has-warning">
-			<label class="control-label" for="inputWarning1">Input with warning</label>
-			<input type="text" class="form-control form-control-warning" id="inputWarning1">
-		</div>
-		<div class="form-group has-error">
-			<label class="control-label" for="inputError1">Input with error</label>
-			<input type="text" class="form-control form-control-error" id="inputError1">
-		</div>
-
-		<div class="has-success">
-			<div class="checkbox">
-				<label>
-					<input type="checkbox" id="checkboxSuccess" value="option1">
-					Checkbox with success
-				</label>
-			</div>
-		</div>
-		<div class="has-warning">
-			<div class="checkbox">
-				<label>
-					<input type="checkbox" id="checkboxWarning" value="option1">
-					Checkbox with warning
-				</label>
-			</div>
-		</div>
-		<div class="has-error">
-			<div class="checkbox">
-				<label>
-					<input type="checkbox" id="checkboxError" value="option1">
-					Checkbox with error
-				</label>
-			</div>
-		</div>
-	"""
-
-'Form Custom checkbox - Bootstrap 4':
-	'prefix': 'formctmcb'
-	'body': """
-		<label class="c-input c-checkbox">
-			<input type="checkbox">
-			<span class="c-indicator"></span>
-			Check this custom checkbox
-		</label>
-	"""
-
-'Form Custom radio - Bootstrap 4':
-	'prefix': 'formctmra'
-	'body': """
-		<label class="c-input c-radio">
-			<input id="radio1" name="radio" type="radio">
-			<span class="c-indicator"></span>
-			Toggle this custom radio
-		</label>
-		<label class="c-input c-radio">
-			<input id="radio2" name="radio" type="radio">
-			<span class="c-indicator"></span>
-			Or toggle this other custom radio
-		</label>
-	"""
-
-'Form Custom radio stacked - Bootstrap 4':
-	'prefix': 'formctmras'
-	'body': """
-		<div class="c-inputs-stacked">
-			<label class="c-input c-radio">
-				<input id="radioStacked1" name="radio-stacked" type="radio">
-				<span class="c-indicator"></span>
-				Toggle this custom radio
-			</label>
-			<label class="c-input c-radio">
-				<input id="radioStacked2" name="radio-stacked" type="radio">
-				<span class="c-indicator"></span>
-				Or toggle this other custom radio
-			</label>
-		</div>
-	"""
-
-'Form Custom select menu - Bootstrap 4':
-	'prefix': 'formctmsm'
-	'body': """
-		<select class="c-select">
-			<option selected>Open this select menu</option>
-			<option value="1">One</option>
-			<option value="2">Two</option>
-			<option value="3">Three</option>
-		</select>
-	"""
-
-'Form Custom File browser - Bootstrap 4':
-	'prefix': 'formctmfb'
-	'body': """
-		<label class="file">
-			<input type="file" id="file">
-			<span class="file-custom"></span>
-		</label>
-	"""
- -->

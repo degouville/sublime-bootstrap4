@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<div class="checkbox">
+	<label>
+		<input type="checkbox" id="${1:blankCheckbox}" value="${2:option1}">
+	</label>
+</div>
+]]></content>
+	<tabTrigger>form:checkbox:wo_label</tabTrigger>
+</snippet>

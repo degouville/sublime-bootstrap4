@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<form class="form-inline">
+	<div class="form-group">
+		<label class="sr-only">Email</label>
+		<p class="form-control-static">email@example.com</p>
+	</div>
+	<div class="form-group">
+		<label for="${1:inputPassword2}" class="sr-only">Password</label>
+		<input type="password" class="form-control" id="${1:inputPassword2}" placeholder="${10:Password}">
+	</div>
+	<button type="submit" class="btn btn-primary">Confirm identity</button>
+</form>
+]]></content>
+	<tabTrigger>form:static_control:inline</tabTrigger>
+</snippet>

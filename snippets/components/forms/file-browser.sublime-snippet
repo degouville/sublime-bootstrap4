@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<label class="file">
+	<input type="file" id="file">
+	<span class="file-custom"></span>
+</label>
+]]></content>
+	<tabTrigger>form:file-browser</tabTrigger>
+</snippet>

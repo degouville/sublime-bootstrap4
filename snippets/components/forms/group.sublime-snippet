@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<form>
+	<fieldset class="form-group">
+		<label for="formGroupExampleInput">Example label</label>
+		<input type="text" class="form-control" id="formGroupExampleInput" placeholder="${10:Example input}">
+	</fieldset>
+	<fieldset class="form-group">
+		<label for="formGroupExampleInput2">Another label</label>
+		<input type="text" class="form-control" id="formGroupExampleInput2" placeholder="${10:Another input}">
+	</fieldset>
+</form>
+]]></content>
+	<tabTrigger>form:group</tabTrigger>
+</snippet>
