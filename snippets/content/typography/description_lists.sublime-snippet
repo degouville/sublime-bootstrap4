@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+<dt class="col-sm-3">${1:Description lists}</dt>
+<dl class="dl-horizontal">
+	<dd class="col-sm-9">${2:A description list is perfect for defining terms.}</dd>
+
+	<dt class="col-sm-3">${3:Euismod}</dt>
+	<dd class="col-sm-9">${4:Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.}</dd>
+
+	<dd class="col-sm-9 col-sm-offset-3">${5:Donec id elit non mi porta gravida at eget metus.}</dd>
+
+	<dt class="col-sm-3">${6:Malesuada porta}</dt>
+	<dd class="col-sm-9">${7:Etiam porta sem malesuada magna mollis euismod.}</dd>
+
+	<dt class="col-sm-3 text-truncate">${8:Truncated term is truncated}</dt>
+	<dd class="col-sm-9">${9:Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.}</dd>
+</dl>
+]]></content>
+	<tabTrigger>typography:disabled_list</tabTrigger>
+</snippet>
+
+<!--
+
+
+
+
+
+
+-->

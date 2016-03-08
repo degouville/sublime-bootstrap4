@@ -6,13 +6,3 @@
 ]]></content>
 	<tabTrigger>utilities:hidden_classes</tabTrigger>
 </snippet>
-
-<!--
-	<div class="visible-print-${1:block|inline|inline-block}">
-	  	$2
-	</div>
-
-	<div class="hidden-print">
-	  	$1
-	</div>
- -->
