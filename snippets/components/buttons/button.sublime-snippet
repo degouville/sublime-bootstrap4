@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-		<button type="button" class="btn btn-primary">$1</button>
+<button type="button" class="btn btn-primary">$1</button>
 ]]></content>
-	<tabTrigger>...</tabTrigger>
+	<tabTrigger>button</tabTrigger>
 </snippet>
 
 <!--
