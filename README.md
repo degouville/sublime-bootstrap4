@@ -28,7 +28,7 @@ There are 3 methods for installing this plugin.
 ### Usage :
 
 Start typing `<foo` in html files and the autocomplete window opens. It matches fuzzily. So you can type `<th5` to find the `template:html5` snippet.
-# Ke     y Features :
+# Key Features :
 
   - Supports autocompletion of all helper classes in JavaScript, CSS and HTML
   - Snippet support for all components.
