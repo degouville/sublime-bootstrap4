@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<div class="btn-group">
+	<button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		Small button
+	</button>
+	<div class="dropdown-menu">
+		${1:...}
+	</div>
+</div>
+]]></content>
+	<tabTrigger>button_dropdown:small</tabTrigger>
+</snippet>
