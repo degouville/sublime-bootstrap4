@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+        <div class="list-group">
+			<a href="#" class="list-group-item list-group-item-${1:success|info|warning|danger}">${2:Dapibus ac facilisis in}</a>
+		</div>
+]]></content>
+	<tabTrigger>list:context:a</tabTrigger>
+</snippet>

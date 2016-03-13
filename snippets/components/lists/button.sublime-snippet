@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+        <div class="list-group">
+			<button type="button" class="list-group-item">${1:Cras justo odio}</button>
+			<button type="button" class="list-group-item">${1:Dapibus ac facilisis in}</button>
+			<button type="button" class="list-group-item">${1:Morbi leo risus}</button>
+		</div>
+]]></content>
+	<tabTrigger>list:button</tabTrigger>
+</snippet>

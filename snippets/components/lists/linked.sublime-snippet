@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+        <div class="list-group">
+			<a href="#" class="list-group-item active">${1:Cras justo odio}</a>
+			<a href="#" class="list-group-item">${1:Dapibus ac facilisis in}</a>
+			<a href="#" class="list-group-item">${1:Morbi leo risus}</a>
+		</div>
+]]></content>
+	<tabTrigger>list:label</tabTrigger>
+</snippet>

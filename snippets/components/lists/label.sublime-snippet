@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+        <ul class="list-group">
+			<li class="list-group-item">
+				<span class="label label-default label-pill pull-right">${1:14}</span>
+				${2:Cras justo odio}
+			</li>
+			<li class="list-group-item">
+				<span class="label label-default label-pill pull-right">${1:2}</span>
+				${2:Dapibus ac facilisis in}
+			</li>
+			<li class="list-group-item">
+				<span class="label label-default label-pill pull-right">${1:1}</span>
+				${2:Morbi leo risus}
+			</li>
+		</ul>
+]]></content>
+	<tabTrigger>list:label</tabTrigger>
+</snippet>
