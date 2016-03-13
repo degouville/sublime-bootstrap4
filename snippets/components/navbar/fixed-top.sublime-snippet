@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+        <nav class="navbar navbar-fixed-top navbar-light bg-faded">
+          <a class="navbar-brand" href="${1:#}">${2:Fixed top}</a>
+        </nav>
+]]></content>
+		<tabTrigger>navbar:fixed:top</tabTrigger>
+</snippet>

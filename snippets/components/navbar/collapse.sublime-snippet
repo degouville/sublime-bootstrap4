@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+        <div class="collapse" id="${1:exCollapsingNavbar}">
+          <div class="bg-inverse p-a">
+            <h4>${2:Collapsed content}</h4>
+            <span class="text-muted">${3:Toggleable via the navbar brand.}</span>
+          </div>
+        </div>
+        <nav class="navbar navbar-light bg-faded">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#${1:exCollapsingNavbar}">
+            &#9776;
+          </button>
+        </nav>
+]]></content>
+		<tabTrigger>navbar:collapse</tabTrigger>
+</snippet>

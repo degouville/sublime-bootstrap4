@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+        <nav class="navbar navbar-light bg-faded">
+          <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#${1:exCollapsingNavbar2}">
+            &#9776;
+          </button>
+          <div class="collapse navbar-toggleable-xs" id="${1:exCollapsingNavbar2}">
+            <a class="navbar-brand" href="#">Responsive navbar</a>
+            <ul class="nav navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="${2:#}">${3:Home} <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="${2:#}">${3:Features}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="${2:#}">${3:Pricing}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="${2:#}">${3:About}</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+]]></content>
+		<tabTrigger>navbar:toggler</tabTrigger>
+</snippet>

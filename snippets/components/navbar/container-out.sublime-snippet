@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+        <div class="container">
+          <nav class="navbar navbar-light bg-faded">
+            <a class="navbar-brand" href="${1:#}">${2:Navbar}</a>
+          </nav>
+        </div>
+]]></content>
+		<tabTrigger>navbar:container:out</tabTrigger>
+</snippet>
