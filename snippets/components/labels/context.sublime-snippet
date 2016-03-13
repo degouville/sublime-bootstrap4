@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+        <span class="label label-${1:default|primary|success|info|warning|danger}">$2</span>
+]]></content>
+	<tabTrigger>label:context</tabTrigger>
+</snippet>
