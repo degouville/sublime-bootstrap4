@@ -22,7 +22,7 @@
 			<span class="input-group-addon">.00</span>
 		</div>
 ]]></content>
-	<tabTrigger>...</tabTrigger>
+	<tabTrigger>input_group</tabTrigger>
 </snippet>
 
 
