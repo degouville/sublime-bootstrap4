@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+        <ul class="nav nav-tabs">
+			<li class="nav-item">
+				<a href="${1:#}" class="nav-link active">${2:Active}</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="${3:#}">${4:Action}</a>
+					<a class="dropdown-item" href="${3:#}">${4:Another action}</a>
+					<a class="dropdown-item" href="${3:#}">${4:Something else here}</a>
+					${5:<div class="dropdown-divider"></div>}
+					<a class="dropdown-item" href="${3:#}">${4:Separated link}</a>
+				</div>
+			</li>
+			<li class="nav-item">
+				<a href="${1:#}" class="nav-link">${2:Another link}</a>
+			</li>
+			<li class="nav-item">
+				<a href="${1:#}" class="nav-link disabled">${2:Disabled}</a>
+			</li>
+		</ul>
+]]></content>
+    <tabTrigger>nav:dropdown</tabTrigger>
+</snippet>

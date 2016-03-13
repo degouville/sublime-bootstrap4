@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+        <nav class="nav">
+			<a class="nav-link active" href="${1:#}">${2:Active}</a>
+			<a class="nav-link" href="${1:#}">${2:Link}</a>
+			<a class="nav-link" href="${1:#}">${2:Another link}</a>
+			<a class="nav-link disabled" href="${1:#}">${3:Disabled}</a>
+		</nav>
+]]></content>
+	<tabTrigger>nav:inline</tabTrigger>
+</snippet>

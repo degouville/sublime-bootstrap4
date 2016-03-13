@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+        <ul class="nav nav-tabs">
+			<li class="nav-item">
+				<a href="${1:#}" class="nav-link active">${2:Active}</a>
+			</li>
+			<li class="nav-item">
+				<a href="${1:#}" class="nav-link">${2:Link}</a>
+			</li>
+			<li class="nav-item">
+				<a href="${1:#}" class="nav-link">${2:Another link}</a>
+			</li>
+			<li class="nav-item disabled">
+				<a href="${1:#}" class="nav-link">${3:Disabled}</a>
+			</li>
+		</ul>
+]]></content>
+    <tabTrigger>nav:tabs</tabTrigger>
+</snippet>
