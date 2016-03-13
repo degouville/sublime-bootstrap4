@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+        <button class="btn btn-primary" data-toggle="modal" data-target="#${1:bd-example-modal}">${2:Large modal}</button>
+]]></content>
+	<tabTrigger>modal:button</tabTrigger>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+        <div class="modal fade" id="${3:bd-example-modal}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-${1:lg|sm}">
+				<div class="modal-content">
+					${2:...}
+				</div>
+			</div>
+		</div>
+]]></content>
+	<tabTrigger>modal:sizes</tabTrigger>
+</snippet>
