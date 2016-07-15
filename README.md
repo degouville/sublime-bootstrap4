@@ -16,7 +16,7 @@ Feel free to let me know what else you want added via:
 ##### Install :
 There are 3 methods for installing this plugin.
 
-1. Search for "Bootstrap 3 Snippets" via the "Package Control: Install Packages" menu.
+1. Search for "Bootstrap 4 Snippets" via the "Package Control: Install Packages" menu.
 **Note:** If you don't have Sublime Package Control installed, you can find out how to install it here [https://sublime.wbond.net/installation](https://sublime.wbond.net/installation)
 
 2. Clone the repository into your Sublime Text 2/3 packages directory.
