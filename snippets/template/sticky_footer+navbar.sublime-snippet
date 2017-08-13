@@ -72,5 +72,5 @@
 	</body>
 </html>
 ]]></content>
-	<tabTrigger>template:sticky_footer+navbar</tabTrigger>
+	<tabTrigger>b4:template:sticky_footer+navbar</tabTrigger>
 </snippet>

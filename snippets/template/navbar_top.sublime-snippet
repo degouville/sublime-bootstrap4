@@ -64,5 +64,5 @@
 	</body>
 </html>
 ]]></content>
-	<tabTrigger>template:navbar_top</tabTrigger>
+	<tabTrigger>b4:template:navbar_top</tabTrigger>
 </snippet>

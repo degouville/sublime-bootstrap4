@@ -3,5 +3,5 @@
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="$1/css/bootstrap.css">
 ]]></content>
-	<tabTrigger>template:local_css</tabTrigger>
+	<tabTrigger>b4:template:local_css</tabTrigger>
 </snippet>

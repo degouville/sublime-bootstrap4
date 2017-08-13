@@ -45,5 +45,5 @@
 	</body>
 </html>
 ]]></content>
-	<tabTrigger>template:sign_in</tabTrigger>
+	<tabTrigger>b4:template:sign_in</tabTrigger>
 </snippet>
