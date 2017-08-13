@@ -8,9 +8,9 @@ Bootstrap 4 - Sublime Plugin :red_circle:
 
 Feel free to let me know what else you want added via:
 
-  - Twitter [@de_gouville][3]
-  - Slack   [@de_gouville][4]
-  - GitHub  [Issues][5]
+- Twitter [@de_gouville](https://twitter.com/de_gouville)
+- Slack   [@de_gouville](https://getbootstrap.slack.com/messages/@degouville/)
+- GitHub  [Issues](https://github.com/mdegoo/sublime-bootstrap4/issues)
 
 ![](https://cdn.dribbble.com/users/2404/screenshots/3438305/sublime-text-preview.png)
 
@@ -26,9 +26,11 @@ There are 3 methods for installing this plugin.
 3. Download the .zip file and unzip it into your Sublime Text 2/3 packages directory.
 **Note:** You can find your Sublime Text 2/3 packages directory by going to Preferences > Browse Packages.
 
+<!--
 ### Usage :
 
 Start typing `<foo` in html files and the autocomplete window opens. It matches fuzzily. So you can type `<th5` to find the `template:html5` snippet.
+-->
 
 # Key Features :
 
@@ -446,12 +448,6 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 ---
 
 [**Back to Top**](#menu)
-
-Links
-[1]: http://v4-alpha.getbootstrap.com/
-[3]: https://twitter.com/de_gouville
-[4]: https://getbootstrap.slack.com/messages/@degouville/
-[5]: https://github.com/mdegoo/sublime-bootstrap4/issues
 
 ---
 
