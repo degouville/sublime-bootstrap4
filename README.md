@@ -1,7 +1,8 @@
-Bootstrap 4 - Sublime Plugin
+Bootstrap 4 - Sublime Plugin :red_circle:
 ============================
 
 #### A sublime plugin complete with Bootstrap 4 snippets
+#### :fire: Up to date w/ 4.0.0-beta :fire:
 
 ---
 
@@ -28,6 +29,7 @@ There are 3 methods for installing this plugin.
 ### Usage :
 
 Start typing `<foo` in html files and the autocomplete window opens. It matches fuzzily. So you can type `<th5` to find the `template:html5` snippet.
+
 # Key Features :
 
   - Supports autocompletion of all helper classes in JavaScript, CSS and HTML
@@ -436,6 +438,21 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 [3]: https://twitter.com/de_gouville
 [4]: https://getbootstrap.slack.com/messages/@degouville/
 [5]: https://github.com/mdegoo/sublime-bootstrap4/issues
+
+---
+
+## Roadmap
+
+### Solar System Exploration, 1950s – 1960s
+
+<!-- TODO: Detail all features -->
+###### Templates
+- [ ] CDN
+- [ ] CDN (js)
+- [ ] CDN (css)
+###### Layout
+###### Content
+###### Components
 
 ---
 
