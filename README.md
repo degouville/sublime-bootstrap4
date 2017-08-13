@@ -11,7 +11,7 @@ Feel free to let me know what else you want added via:
   - Slack   [@de_gouville][4]
   - GitHub  [Issues][5]
 
-![](https://d13yacurqjgara.cloudfront.net/users/501563/screenshots/2273297/sublime_text_el_capitan_preview.png)
+![](https://cdn.dribbble.com/users/2404/screenshots/3438305/sublime-text-preview.png)
 
 ##### Install :
 There are 3 methods for installing this plugin.
