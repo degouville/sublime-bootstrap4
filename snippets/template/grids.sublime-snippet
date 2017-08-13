@@ -4,40 +4,33 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="description" content="">
 		<meta name="author" content="">
-		<link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
+		<link rel="icon" href="../../../../favicon.ico">
 
 		<title>Grid Template for Bootstrap</title>
 
 		<!-- Bootstrap core CSS -->
-		<link href="http://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
 
 		<!-- Custom styles for this template -->
 		<link href="grid.css" rel="stylesheet">
-
-		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-		<script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
 	</head>
 
 	<body>
 		<div class="container">
 
-			<div class="page-header">
-				<h1>Bootstrap grid examples</h1>
-				<p class="lead">Basic grid layouts to get you familiar with building within the Bootstrap grid system.</p>
-			</div>
+			<h1>Bootstrap grid examples</h1>
+			<p class="lead">Basic grid layouts to get you familiar with building within the Bootstrap grid system.</p>
 
 			<h3>Five grid tiers</h3>
 			<p>There are five tiers to the Bootstrap grid system, one for each range of devices we support. Each tier starts at a minimum viewport size and automatically applies to the larger devices unless overridden.</p>
 
 			<div class="row">
-				<div class="col-xs-4">.col-xs-4</div>
-				<div class="col-xs-4">.col-xs-4</div>
-				<div class="col-xs-4">.col-xs-4</div>
+				<div class="col-4">.col-4</div>
+				<div class="col-4">.col-4</div>
+				<div class="col-4">.col-4</div>
 			</div>
 
 			<div class="row">
@@ -109,20 +102,20 @@
 			<hr>
 
 			<h3>Mixed: mobile and desktop</h3>
-			<p>The Bootstrap 3 grid system has four tiers of classes: xs (phones), sm (tablets), md (desktops), and lg (larger desktops). You can use nearly any combination of these classes to create more dynamic and flexible layouts.</p>
+			<p>The Bootstrap v4 grid system has five tiers of classes: xs (extra small), sm (small), md (medium), lg (large), and xl (extra large). You can use nearly any combination of these classes to create more dynamic and flexible layouts.</p>
 			<p>Each tier of classes scales up, meaning if you plan on setting the same widths for xs and sm, you only need to specify xs.</p>
 			<div class="row">
-				<div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
-				<div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+				<div class="col-12 col-md-8">.col-12 .col-md-8</div>
+				<div class="col-6 col-md-4">.col-6 .col-md-4</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-				<div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-				<div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+				<div class="col-6 col-md-4">.col-6 .col-md-4</div>
+				<div class="col-6 col-md-4">.col-6 .col-md-4</div>
+				<div class="col-6 col-md-4">.col-6 .col-md-4</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-6">.col-xs-6</div>
-				<div class="col-xs-6">.col-xs-6</div>
+				<div class="col-6">.col-6</div>
+				<div class="col-6">.col-6</div>
 			</div>
 
 			<hr>
@@ -130,56 +123,21 @@
 			<h3>Mixed: mobile, tablet, and desktop</h3>
 			<p></p>
 			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-lg-8">.col-xs-12 .col-sm-6 .col-lg-8</div>
-				<div class="col-xs-6 col-lg-4">.col-xs-6 .col-lg-4</div>
+				<div class="col-12 col-sm-6 col-lg-8">.col-12 .col-sm-6 .col-lg-8</div>
+				<div class="col-6 col-lg-4">.col-6 .col-lg-4</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
-				<div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
-				<div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+				<div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
+				<div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
+				<div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
 			</div>
-
-			<hr>
-
-			<h3>Column clearing</h3>
-			<p><a href="http://getbootstrap.com/css/#grid-responsive-resets">Clear floats</a> at specific breakpoints to prevent awkward wrapping with uneven content.</p>
-			<div class="row">
-				<div class="col-xs-6 col-sm-3">
-					.col-xs-6 .col-sm-3
-					<br>
-					Resize your viewport or check it out on your phone for an example.
-				</div>
-				<div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
-
-				<!-- Add the extra clearfix for only the required viewport -->
-				<div class="clearfix visible-xs"></div>
-
-				<div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
-				<div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
-			</div>
-
-			<hr>
-
-			<h3>Offset, push, and pull resets</h3>
-			<p>Reset offsets, pushes, and pulls at specific breakpoints.</p>
-			<div class="row">
-				<div class="col-sm-5 col-md-6">.col-sm-5 .col-md-6</div>
-				<div class="col-sm-5 col-sm-offset-2 col-md-6 col-md-offset-0">.col-sm-5 .col-sm-offset-2 .col-md-6 .col-md-offset-0</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-6 col-md-5 col-lg-6">.col-sm-6 .col-md-5 .col-lg-6</div>
-				<div class="col-sm-6 col-md-5 col-md-offset-2 col-lg-6 col-lg-offset-0">.col-sm-6 .col-md-5 .col-md-offset-2 .col-lg-6 .col-lg-offset-0</div>
-			</div>
-
 
 		</div> <!-- /container -->
 
-
-		<!-- Bootstrap core JavaScript
-		================================================== -->
+		<!-- Bootstrap core JavaScript ================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
-
-
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="../../../../assets/js/ie10-viewport-bug-workaround.js"></script>
 	</body>
 </html>
 ]]></content>

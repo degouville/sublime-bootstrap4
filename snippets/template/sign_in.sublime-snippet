@@ -10,31 +10,34 @@
 		    <meta name="author" content="">
 		    <link rel="icon" href="../../../../favicon.ico">
 
-		    <title>Sticky Footer Template for Bootstrap</title>
+		    <title>Signin Template for Bootstrap</title>
 
 		    <!-- Bootstrap core CSS -->
 		    <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
 
 		    <!-- Custom styles for this template -->
-		    <link href="sticky-footer.css" rel="stylesheet">
+		    <link href="signin.css" rel="stylesheet">
 		  </head>
 
 		  <body>
 
-		    <!-- Begin page content -->
 		    <div class="container">
-		      <div class="mt-1">
-		        <h1>Sticky footer</h1>
-		      </div>
-		      <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS.</p>
-		      <p>Use <a href="../sticky-footer-navbar">the sticky footer with a fixed navbar</a> if need be, too.</p>
-		    </div>
 
-		    <footer class="footer">
-		      <div class="container">
-		        <span class="text-muted">Place sticky footer content here.</span>
-		      </div>
-		    </footer>
+		      <form class="form-signin">
+		        <h2 class="form-signin-heading">Please sign in</h2>
+		        <label for="inputEmail" class="sr-only">Email address</label>
+		        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+		        <label for="inputPassword" class="sr-only">Password</label>
+		        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+		        <div class="checkbox">
+		          <label>
+		            <input type="checkbox" value="remember-me"> Remember me
+		          </label>
+		        </div>
+		        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+		      </form>
+
+		    </div> <!-- /container -->
 
 
 		    <!-- Bootstrap core JavaScript
@@ -45,5 +48,5 @@
 		  </body>
 		</html>
 ]]></content>
-	<tabTrigger>template:sticky_footer</tabTrigger>
+	<tabTrigger>template:sign_in</tabTrigger>
 </snippet>
