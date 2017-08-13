@@ -53,16 +53,14 @@
 		</nav>
 
 		<div class="container">
-
 			<div class="starter-template">
 				<h1>Bootstrap starter template</h1>
 				<p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
 			</div>
-
 		</div><!-- /.container -->
 
 
-	<!-- Bootstrap core JavaScript ================================================== -->
+		<!-- Bootstrap core JavaScript ================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
