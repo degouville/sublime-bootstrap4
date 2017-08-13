@@ -262,5 +262,5 @@
 	</body>
 </html>
 ]]></content>
-	<tabTrigger>template:dashboard</tabTrigger>
+	<tabTrigger>b4:template:dashboard</tabTrigger>
 </snippet>

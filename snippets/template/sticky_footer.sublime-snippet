@@ -44,5 +44,5 @@
 	</body>
 </html>
 ]]></content>
-	<tabTrigger>template:sticky_footer</tabTrigger>
+	<tabTrigger>b4:template:sticky_footer</tabTrigger>
 </snippet>
