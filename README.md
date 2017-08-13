@@ -42,9 +42,10 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 
 
 ## <a name="menu"></a>Menu
-* Templates
-  sic]     (#templates)
-  - [Example](#templates)
+* Getting Started
+  - [Templates](#templates)
+  - [Examples](#examples)
+<!--
 * Layout
   - [Grid](#grid)
   - [Media](#media)
@@ -77,32 +78,44 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
   - [Collapse](#collapse)
   - [Carousel](#carousel)
   - [Utilities](#utilities)
+-->
 
 ## Snippets
 
-### <a name="templates">Templates</a>
+### Getting Started
+
+###### <a name="templates">Templates</a>
 | Snippets                             | Descriptions                          |
 | :----------------------------        | :------------------------------------ |
-| template:cdn                         | Generates a CSS & JS from CDN         |
-| template:cdn_css                     | Generates a CSS from CDN              |
-| template:cdn_js                      | Generates a CSS & JS from CDN         |
 | template:html5                       | Generates a Basic HTML5 Template      |
-| template:blog                        | Generates a Blog Template             |
+| template:cdn                         | Generates CSS & JS call using CDN     |
+| template:cdn_css                     | Generates CSS call using CDN          |
+| template:cdn_js                      | Generates JS call using CDN           |
+| template:cdn_css                     | Generates CSS call using local file   |
+| template:cdn_js                      | Generates JS call using local file    |
+
+###### <a name="examples">Examples</a>
+| Snippets                             | Descriptions                          |
+| :----------------------------        | :------------------------------------ |
+| template:starter                     | Generates a Starter Template          |
+| template:album                       | Generates an Album Template           |
 | template:carousel                    | Generates a Carousel Template         |
+| template:grids                       | Generates a Grids Template            |
 | template:cover                       | Generates a Cover Template            |
 | template:dashboard                   | Generates a Dashboard Template        |
-| template:grids                       | Generates a Grids Template            |
 | template:jumbotron                   | Generates a Jumbotron Template        |
-| template:navbar                      | Generates a Navbar Template           |
-| template:fixed_navbar                | Generates a Fixed Navbar Template     |
+| template:narrow_jumbotron            | Generates a Narrow Jumbotron Template |
+| template:navbars                     | Generates a Navbars Template          |
+| template:offcanvas                   | Generates a OffCanvas Template        |
+| template:navbar_top_fixed            | Generates a Navbar Top Fixed Template |
+| template:navbar_top                  | Generates a Navbar Top Template       |
 | template:justified_nav               | Generates a Justified nav Template    |
-| template:static_top_navbar           | Generates a Static top Navbar Template|
 | template:sticky_footer               | Generates a Sticky footer Template    |
 | template:sticky_footer+navbar        | Generates a Sticky footer w/ navbar...|
-| template:sign-in                     | Generates a Sign-in Template          |
-| template:starter                     | Generates a Starter Template          |
+| template:sign_in                     | Generates a Sign_in Template          |
+| template:blog                        | Generates a Blog Template             |
 
-### Layout
+<!-- ### Layout
 
 ###### <a name="grid">Grid</a>
 | Snippets                             | Descriptions                          |
@@ -123,7 +136,7 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 | grid:col-lg                          | Generates a large column              |
 | grid:col-xl                          | Generates a extra large column        |
 
-<!--
+
 | grid:col_clearfix                    | Generates a Clearfix for Grid system  |
 | grid:3col                            | Generates a 3 Columns Grid            |
 | grid:2col                            | Generates a 2 Columns Grid            |
@@ -135,7 +148,7 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 | grid:4colr                           | Generates a Responsive 4 Columns Grid |
 | grid:6colr                           | Generates a Responsive 6 Columns Grid |
 | grid:12colr                          | Generates a Responsive 12 Columns Grid|
- -->
+
 ###### <a name="media">Media</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
@@ -160,7 +173,7 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 | typography:text_muted                | Generates a  Text Muted               |
 | typography:display_heading           | Generates a  Display Heading          |
 | typography:lead                      | Generates a  Lead                     |
-<!--
+
 | typography:blockquotes               | Generates a  Blockquotes              |
 | typography:blockquotes_reverse       | Generates a  Blockquotes Reverse      |
 | typography:list_unstyled             | Generates a  List Unstyled            |
@@ -173,19 +186,19 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 | typography:image_left -              | Generates an Image Left -             |
 | typography:image_right -             | Generates an Image Right -            |
 | typography:image_center -            | Generates an Image Center -           |
- -->
+
 ###### <a name="tables">Tables</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
 | tables:table                         | Generates a  Table                    |
-<!--
+
 | tables:tables                        | Generates a  Tables (full option)     |
 | tables:head_inverse                  | Generates a  Tables Head Inverse      |
 | tables:responsive                    | Generates a  Tables Responsive        |
 | tables:colspan                       | Generates a  Tables Colspan           |
 | tables:colors_tr                     | Generates a  Tables Colors (tr)       |
 | tables:colors_td                     | Generates a  Tables Colors (td)       |
- -->
+
 ###### <a name="figures">Figures</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
@@ -197,7 +210,7 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
 | buttons                              | Generates a  Button                   |
-<!--
+
 | buttons:colors                       | Generates a  Button colors            |
 | buttons:outline                      | Generates a  Button Outline           |
 | buttons:a                            | Generates a  Button < a >             |
@@ -208,30 +221,30 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 | buttons:state                        | Generates a  Button state             |
 | buttons:toggle                       | Generates a  Button toggle            |
 | buttons:plugin Radio                 | Generates a  Button plugin Radio      |
- -->
+
 ###### <a name="button-group">Button group</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
 | button-group                         | Generates a  Button group             |
-<!--
+
 | button-group:toolbar                 | Generates a  Button toolbar           |
 | button-group:group_size              | Generates a  Button group size        |
 | button-group:dropdown                | Generates a  Button dropdown          |
--->
+
 
 ###### <a name="button-dropdown">Button dropdown</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
 | button-dropdown                      | Generates a  Button dropdown          |
-<!--
+
 | button-dropup                        | Generates a  Button dropup            |
--->
+
 
 ###### <a name="forms">Forms</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
 | form                                 | Generates a  Form Controls            |
-<!--
+
 | form:group                           | Generates a  Form group               |
 | form:inline                          | Generates a  Form inline              |
 | form:hidden_label                    | Generates a  Form hidden label        |
@@ -251,58 +264,58 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 | form:validation                      | Generates a  Form Validation          |
 | form:custom_checkbox                 | Generates a  Form Custom checkbox     |
 | form:custom_radio                    | Generates a  Form Custom radio        |
--->
+
 
 ###### <a name="input-group">Input group</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
 | input-group                          | Generates an Input Group              |
-<!--
+
 | input-group:sizing                   | Generates an Input Group Sizing       |
 | input-group:buttons_addons           | Generates a Buttons addons            |
 | input-group:Buttons_without_dropdowns| Generates a Buttons w/ dropdowns      |
 | input-group:segmented_buttons        | Generates a Segmented buttons         |
- -->
+
 ###### <a name="dropdowns">Dropdowns</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
 | dropdown                             | Generates a  Dropdown                 |
-<!--
+
 | dropdown:drpagm                      | Generates a  Dropdown Alignement      |
 | dropdown:drpmh                       | Generates a  Dropdown menu header     |
--->
+
 
 ###### <a name="jumbotron">Jumbotron</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
 | jumbotron                            | Generates a  Jumbotron                |
-<!--
+
 | jumbotron:fluid                      | Generates a  Fluid Jumbotron          |
- -->
+
 ###### <a name="label">Label</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
 | label                                | Generates a Label                     |
-<!--
+
 | label:context                        | Generates a Label context             |
 | label:pill                           | Generates a Label pill                |
--->
+
 
 ###### <a name="alerts">Alerts</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
 | alerts:success                       | Generates an Alert success            |
-<!--
+
 | alerts:info                          | Generates an Alert info               |
 | alerts:warning                       | Generates an Alert warning            |
 | alerts:danger                        | Generates an Alert danger             |
 | alerts:dismissing                    | Generates an Alert dismissing         |
- -->
+
 ###### <a name="card">Card</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
 | Cards:                               | Generates a  Cards                    |
-<!--
+
 | Cards:content_type                   | Generates a  Cards content type       |
 | Cards:sizing                         | Generates a  Cards sizing             |
 | Cards:text_alignment                 | Generates a  Cards Text alignment     |
@@ -314,23 +327,23 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 | Cards:columns                        | Generates a  Cards columns            |
 | Cards:groups                         | Generates a  Cards groups             |
 | Cards:groups                         | Generates a  Cards groups             |
- -->
+
 ###### <a name="navs">Navs</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
 | nav                                  | Generates a  Nav                      |
-<!--
+
 | nav:inline                           | Generates a  Nav inline               |
 | nav:tabs                             | Generates a  Nav tabs                 |
 | nav:pills                            | Generates a  Nav pills                |
 | nav:pills_stacked                    | Generates a  Nav pills stacked        |
 | nav:tabs_dropdown                    | Generates a  Nav tabs w/ dropdown     |
- -->
+
 ###### <a name="navbar">Navbar</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
 | navbar:                              | Generates a  Navbar                   |
-<!--
+
 | navbar:color                         | Generates a  Navbar color             |
 | navbar:container_out                 | Generates a  Navbar container out     |
 | navbar:container_in                  | Generates a  Navbar container in      |
@@ -338,7 +351,7 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 | navbar:fixed_bottom                  | Generates a  Navbar fixed bottom      |
 | navbar:collapse                      | Generates a  Navbar collapse          |
 | navbar:toggler                       | Generates a  Navbar toggler           |
- -->
+
 ###### <a name="breadcrumb">Breadcrumb</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
@@ -348,41 +361,41 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
 | pagination                           | Generates a  Pagination               |
-<!--
+
 | pagination:sz                        | Generates a  Pagination               |
 | pagination:pager                     | Generates a  Pagination pager         |
- -->
+
 ###### <a name="progress">Progress</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
 | progress                             | Generates a  Progress                 |
-<!--
+
 | progress:context                     | Generates a  Progress context         |
 | progress:striped                     | Generates a  Progress striped         |
--->
+
 
 ###### <a name="list-group">List group</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
 | list-group                           | Generates a  List                     |
-<!--
+
 | list-group:label                     | Generates a  List label               |
 | list-group:linked                    | Generates a  List linked              |
 | list-group:button                    | Generates a  List button              |
 | list-group:disabled_items            | Generates a  List disabled items      |
 | list-group:context                   | Generates a  List context             |
 | list-group:custom_content            | Generates a  List custom content      |
--->
+
 
 ###### <a name="modal">Modal</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
 | modal                                | Generates a  Modal                    |
-<!--
+
 | modal:sizes                          | Generates a  Modal sizes              |
 | modal:grid                           | Generates a  Modal grid               |
 | modal:content_based                  | Generates a  Modal content based      |
--->
+
 
 ###### <a name="scrollspy">Scrollspy</a>
 | Snippets                             | Descriptions                          |
@@ -412,7 +425,7 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 | carousel                             | Generates a  Carousel                 |
 | carousel:caption                     | Generates a  Carousel caption         |
 
-<!--
+
 ###### <a name="utilities">Utilities</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
@@ -429,11 +442,12 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 | utilities:responsive_embeds          | Generates a  Responsive embeds        |
 -->
 
+
 ---
 
 [**Back to Top**](#menu)
 
-<!-- Links -->
+Links
 [1]: http://v4-alpha.getbootstrap.com/
 [3]: https://twitter.com/de_gouville
 [4]: https://getbootstrap.slack.com/messages/@degouville/
@@ -445,14 +459,42 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 
 ### Solar System Exploration, 1950s – 1960s
 
-<!-- TODO: Detail all features -->
-###### Templates
-- [ ] CDN
-- [ ] CDN (js)
-- [ ] CDN (css)
+TODO: Detail all features
+###### Getting Started
+- [x] Templates
+- [x] Examples
 ###### Layout
+- [ ] Grid
+- [ ] Media
+- [ ]  Responsive Utilities
 ###### Content
+- [ ] Typography
+- [ ] Tables
+- [ ] Figures
 ###### Components
+- [ ] Buttons
+- [ ]  Button Group
+- [ ] Forms
+- [ ]  Input Group
+- [ ] Dropdowns
+- [ ] Jumbotron
+- [ ] Label
+- [ ] Alerts
+- [ ] Card
+- [ ] Navs
+- [ ] Navbar
+- [ ] Breadcrumb
+- [ ] Pagination
+- [ ] Progress
+- [ ] List Group
+- [ ] Modal
+- [ ] Scrollspy
+- [ ] Tooltips
+- [ ] Popovers
+- [ ] Collapse
+- [ ] Carousel
+- [ ] Utilities
+
 
 ---
 
