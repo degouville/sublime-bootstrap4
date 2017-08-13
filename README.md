@@ -457,9 +457,7 @@ Links
 
 ## Roadmap
 
-### Solar System Exploration, 1950s – 1960s
-
-TODO: Detail all features
+<!-- TODO: Detail all features -->
 ###### Getting Started
 - [x] Templates
 - [x] Examples

@@ -1,0 +1,27 @@
+============================================================
+Bootstrap 4 Snippets - Has been updated !! -> v0.2.0
+============================================================
+        Bootstrap v4.0.0-beta has been released !!
+============================================================
+Follow me on Twitter: @degouville
+------------------------------------------------------------
+
+New Features
+------------------------------------------------------------
+- New snippets:
+    * b4:example:album - Generates an Album Template
+    * b4:example:narrow_jumbotron - Generates a Narrow Jumbotron Template
+    * b4:example:offcanvas - Generates a OffCanvas Template
+    * b4:example:navbar_top_fixed - Generates a Navbar Top Fixed Template
+- Updated CDN references to Bootstrap v4.0.0-beta
+- Updated the Templates snippets
+- Updated the Examples snippets
+- COMING SOON
+    * Auto-completion
+    * Auto-placement
+    * Layouts snippets (very very soon...)
+    * Content snippets (very soon.)
+    * Components snippets (soon.)
+------------------------------------------------------------
+Documentation, examples & issue filing can be found here:
+https://github.com/degouville/sublime-bootstrap4
