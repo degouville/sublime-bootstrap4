@@ -87,33 +87,33 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 ###### <a name="templates">Templates</a>
 | Snippets                             | Descriptions                          |
 | :----------------------------        | :------------------------------------ |
-| template:html5                       | Generates a Basic HTML5 Template      |
-| template:cdn                         | Generates CSS & JS call using CDN     |
-| template:cdn_css                     | Generates CSS call using CDN          |
-| template:cdn_js                      | Generates JS call using CDN           |
-| template:cdn_css                     | Generates CSS call using local file   |
-| template:cdn_js                      | Generates JS call using local file    |
+| b4:template:html5                    | Generates a Basic HTML5 Template      |
+| b4:template:cdn                      | Generates CSS & JS call using CDN     |
+| b4:template:cdn_css                  | Generates CSS call using CDN          |
+| b4:template:cdn_js                   | Generates JS call using CDN           |
+| b4:template:cdn_css                  | Generates CSS call using local file   |
+| b4:template:cdn_js                   | Generates JS call using local file    |
 
 ###### <a name="examples">Examples</a>
 | Snippets                             | Descriptions                          |
 | :----------------------------        | :------------------------------------ |
-| template:starter                     | Generates a Starter Template          |
-| template:album                       | Generates an Album Template           |
-| template:carousel                    | Generates a Carousel Template         |
-| template:grids                       | Generates a Grids Template            |
-| template:cover                       | Generates a Cover Template            |
-| template:dashboard                   | Generates a Dashboard Template        |
-| template:jumbotron                   | Generates a Jumbotron Template        |
-| template:narrow_jumbotron            | Generates a Narrow Jumbotron Template |
-| template:navbars                     | Generates a Navbars Template          |
-| template:offcanvas                   | Generates a OffCanvas Template        |
-| template:navbar_top_fixed            | Generates a Navbar Top Fixed Template |
-| template:navbar_top                  | Generates a Navbar Top Template       |
-| template:justified_nav               | Generates a Justified nav Template    |
-| template:sticky_footer               | Generates a Sticky footer Template    |
-| template:sticky_footer+navbar        | Generates a Sticky footer w/ navbar...|
-| template:sign_in                     | Generates a Sign_in Template          |
-| template:blog                        | Generates a Blog Template             |
+| b4:example:starter                   | Generates a Starter Template          |
+| b4:example:album                     | Generates an Album Template           |
+| b4:example:carousel                  | Generates a Carousel Template         |
+| b4:example:grids                     | Generates a Grids Template            |
+| b4:example:cover                     | Generates a Cover Template            |
+| b4:example:dashboard                 | Generates a Dashboard Template        |
+| b4:example:jumbotron                 | Generates a Jumbotron Template        |
+| b4:example:narrow_jumbotron          | Generates a Narrow Jumbotron Template |
+| b4:example:navbars                   | Generates a Navbars Template          |
+| b4:example:offcanvas                 | Generates a OffCanvas Template        |
+| b4:example:navbar_top_fixed          | Generates a Navbar Top Fixed Template |
+| b4:example:navbar_top                | Generates a Navbar Top Template       |
+| b4:example:justified_nav             | Generates a Justified nav Template    |
+| b4:example:sticky_footer             | Generates a Sticky footer Template    |
+| b4:example:sticky_footer+navbar      | Generates a Sticky footer w/ navbar...|
+| b4:example:sign_in                   | Generates a Sign_in Template          |
+| b4:example:blog                      | Generates a Blog Template             |
 
 <!-- ### Layout
 
@@ -457,9 +457,7 @@ Links
 
 ## Roadmap
 
-### Solar System Exploration, 1950s – 1960s
-
-TODO: Detail all features
+<!-- TODO: Detail all features -->
 ###### Getting Started
 - [x] Templates
 - [x] Examples
