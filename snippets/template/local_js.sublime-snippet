@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-	<!-- jQuery first, then Bootstrap JS. -->
-	<script src="$1/js/jquery.min.js"></script>
-	<script src="$1/js/bootstrap.js"></script>
+<!-- jQuery first, then Bootstrap JS. -->
+<script src="$1/js/jquery.min.js"></script>
+<script src="$1/js/bootstrap.js"></script>
 ]]></content>
 	<tabTrigger>template:local_js</tabTrigger>
 </snippet>

@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/${1:v4-dev/dist}/css/bootstrap.css">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 ]]></content>
 	<tabTrigger>template:cdn_css</tabTrigger>
 </snippet>
