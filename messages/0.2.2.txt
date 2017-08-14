@@ -13,6 +13,9 @@ New Features
     * b4:utilities:spacing - Generates a Spacing options snippet
     * b4:utilities:spacing:centered - Generates a Spacing centered snippet
     * b4:media:medium - Generates a Media middle
+    * b4:grid:col - Generates a column
+    * b4:grid:column - Generates a column w/ options
+    * b4:grid:col_flex - Generates a flexbox column
 
 - COMING SOON
     * Auto-completion

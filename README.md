@@ -123,7 +123,7 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 | b4:grid:container                    | Generates a container                 |
 | b4:grid:container_fluid              | Generates a fluid container           |
 | b4:grid:row                          | Generates a row                       |
-| b4:grid:column                       | Generates a column                    |
+| b4:grid:col                          | Generates a column                    |
 | b4:grid:column                       | Generates a column w/ options         |
 | b4:grid:col_sm                       | Generates a small column              |
 | b4:grid:col_md                       | Generates a medium column             |
