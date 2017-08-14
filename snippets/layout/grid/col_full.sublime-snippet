@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<div class="col-${1:sm|md|lg|xl}-${2:1-12}">
-]]></content>
-	<tabTrigger>grid:col_full</tabTrigger>
-</snippet>
