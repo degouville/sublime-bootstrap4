@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<div class="col">
+  	$1
+</div>
+]]></content>
+	<tabTrigger>b4:grid:col:flex</tabTrigger>
+</snippet>

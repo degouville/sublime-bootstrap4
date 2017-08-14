@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-<div class="col-${1:sm|md|lg|xl}-${2:1-12}">
+<div class="col-${1:sm|md|lg|xl}-${2:1-12|auto}">
   	$3
 </div>
 ]]></content>
-	<tabTrigger>grid:column</tabTrigger>
+	<tabTrigger>b4:grid:column</tabTrigger>
 </snippet>

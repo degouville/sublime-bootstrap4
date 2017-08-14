@@ -3,12 +3,12 @@
 <div class="container">
 	<div class="row">${4:
 
-		<div class="col-${1:sm|md|lg|xl}-${2:1-12}">
+		<div class="col-${1:sm|md|lg|xl}-${2:1-12|auto}">
 			$3
 		</div>
 
 	}</div>
 </div>
 ]]></content>
-	<tabTrigger>grid</tabTrigger>
+	<tabTrigger>b4:grid</tabTrigger>
 </snippet>
