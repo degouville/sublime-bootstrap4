@@ -1,0 +1,24 @@
+============================================================
+Bootstrap 4 Snippets - Has been updated !! -> v0.2.2
+============================================================
+        Bootstrap v4.0.0-beta has been released !!
+============================================================
+Follow me on Twitter: @degouville
+------------------------------------------------------------
+
+New Features
+------------------------------------------------------------
+- New snippets:
+    * b4:utilities:visible - Generates a (in)visible snippet
+    * b4:utilities:spacing - Generates a Spacing options snippet
+    * b4:utilities:spacing:centered - Generates a Spacing centered snippet
+    * b4:media:medium - Generates a Media middle
+
+- COMING SOON
+    * Auto-completion
+    * Auto-placement
+    * Content snippets (very soon.)
+    * Components snippets (soon.)
+------------------------------------------------------------
+Documentation, examples & issue filing can be found here:
+https://github.com/degouville/sublime-bootstrap4

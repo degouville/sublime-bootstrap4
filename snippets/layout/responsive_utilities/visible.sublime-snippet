@@ -2,5 +2,5 @@
 	<content><![CDATA[
 <div class="${1:in}visible">...</div>
 ]]></content>
-	<tabTrigger>utilities:visible</tabTrigger>
+	<tabTrigger>b4:utilities:visible</tabTrigger>
 </snippet>

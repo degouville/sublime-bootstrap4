@@ -45,12 +45,11 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 * Getting Started
   - [Templates](#templates)
   - [Examples](#examples)
-<!--
-* Layout
+ * Layout
   - [Grid](#grid)
   - [Media](#media)
-  - [Responsive Utilities](#responsive-utilities)
-* Content
+  - [Utilities for layout](#utilities-for-layout)
+<!-- * Content
   - [Typography](#typography)
   - [Tables](#tables)
   - [Figures](#figures)
@@ -115,56 +114,40 @@ Start typing `<foo` in html files and the autocomplete window opens. It matches 
 | b4:example:sign_in                   | Generates a Sign_in Template          |
 | b4:example:blog                      | Generates a Blog Template             |
 
-<!-- ### Layout
+### Layout
 
 ###### <a name="grid">Grid</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
-| grid                                 | Generates a grid                      |
-| grid:container                       | Generates a container                 |
-| grid:container_fluid                 | Generates a fluid container           |
-| grid:row                             | Generates a row                       |
-| grid:column                          | Generates a column                    |
-| grid:col_xs                          | Generates a extra small column        |
-| grid:col_sm                          | Generates a small column              |
-| grid:col_md                          | Generates a medium column             |
-| grid:col_lg                          | Generates a large column              |
-| grid:col_xl                          | Generates a extra large column        |
-| grid:col-xs                          | Generates a extra small column        |
-| grid:col-sm                          | Generates a small column              |
-| grid:col-md                          | Generates a medium column             |
-| grid:col-lg                          | Generates a large column              |
-| grid:col-xl                          | Generates a extra large column        |
-
-
-| grid:col_clearfix                    | Generates a Clearfix for Grid system  |
-| grid:3col                            | Generates a 3 Columns Grid            |
-| grid:2col                            | Generates a 2 Columns Grid            |
-| grid:4col                            | Generates a 4 Columns Grid            |
-| grid:6col                            | Generates a 6 Columns Grid            |
-| grid:12col                           | Generates a 12 Columns Grid           |
-| grid:2colr                           | Generates a Responsive 3 Columns Grid |
-| grid:3colr                           | Generates a Responsive 2 Columns Grid |
-| grid:4colr                           | Generates a Responsive 4 Columns Grid |
-| grid:6colr                           | Generates a Responsive 6 Columns Grid |
-| grid:12colr                          | Generates a Responsive 12 Columns Grid|
+| b4:grid                              | Generates a grid                      |
+| b4:grid:container                    | Generates a container                 |
+| b4:grid:container_fluid              | Generates a fluid container           |
+| b4:grid:row                          | Generates a row                       |
+| b4:grid:column                       | Generates a column                    |
+| b4:grid:column                       | Generates a column w/ options         |
+| b4:grid:col_sm                       | Generates a small column              |
+| b4:grid:col_md                       | Generates a medium column             |
+| b4:grid:col_lg                       | Generates a large column              |
+| b4:grid:col_xl                       | Generates a extra large column        |
+| b4:grid:col_flex                     | Generates a flexbox column            |
 
 ###### <a name="media">Media</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
-| media                                | Generates a Media                     |
-| media:right                          | Generates a Media right               |
-| media:medium                         | Generates a Media middle              |
-| media:bottom                         | Generates a Media bottom              |
-| media:list                           | Generates a Media List                |
+| b4:media                             | Generates a Media                     |
+| b4:media:right                       | Generates a Media right               |
+| b4:media:medium                      | Generates a Media middle              |
+| b4:media:bottom                      | Generates a Media bottom              |
+| b4:media:list                        | Generates a Media List                |
 
-###### <a name="responsive-utilities">Responsive Utilities</a>
+###### <a name="utilities-for-layout">Utilities for layout</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
-| utilities:hidden_classes             | Generates a  Responsive hidden classes|
-| utilities:visible_print              | Generates a  Responsive visible print |
-| utilities:hidden_print               | Generates a  Responsive hidden print c|
+| b4:utilities:visible                 | Generates a (in)visible snippet       |
+| b4:utilities:spacing                 | Generates a Spacing options snippet   |
+| b4:utilities:spacing:centered        | Generates a Spacing centered snippet  |
 
+<!--
 ### Content
 
 ###### <a name="typography">Typography</a>

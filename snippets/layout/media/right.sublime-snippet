@@ -8,5 +8,5 @@
 	<img class="d-flex ml-3" src="..." alt="Generic placeholder image">
 </div>
 ]]></content>
-	<tabTrigger>media:right</tabTrigger>
+	<tabTrigger>b4:media:right</tabTrigger>
 </snippet>
