@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<div class="col-${1:1-12}">
+  	$2
+</div>
+]]></content>
+	<tabTrigger>grid:col</tabTrigger>
+</snippet>
