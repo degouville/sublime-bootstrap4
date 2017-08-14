@@ -1,23 +1,26 @@
 <snippet>
 	<content><![CDATA[
-<ul class="media-list">
-  	<li class="media">
-	    <a class="media-left href="$1#">
-	      	<img class="media-object" data-src="$2" alt="$3">
-	    </a>
-	    <div class="media-body">
-	      	<h4 class="media-heading">${4:Media heading}</h4>
-	      	$5
-	    </div>
-	  </li>
-	  <li class="media">
-	    <a class="media-left href="$1#">
-	      	<img class="media-object" data-src="$2" alt="$3">
-	    </a>
-	    <div class="media-body">
-	      	<h4 class="media-heading">${4:Media heading}</h4>
-	      	$5
-	    </div>
+<ul class="list-unstyled">
+	<li class="media">
+		<img class="d-flex mr-3" src="..." alt="Generic placeholder image">
+		<div class="media-body">
+			<h5 class="mt-0 mb-1">List-based media object</h5>
+			Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+		</div>
+	</li>
+	<li class="media my-4">
+		<img class="d-flex mr-3" src="..." alt="Generic placeholder image">
+		<div class="media-body">
+			<h5 class="mt-0 mb-1">List-based media object</h5>
+			Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+		</div>
+	</li>
+	<li class="media">
+		<img class="d-flex mr-3" src="..." alt="Generic placeholder image">
+		<div class="media-body">
+			<h5 class="mt-0 mb-1">List-based media object</h5>
+			Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+		</div>
 	</li>
 </ul>
 ]]></content>
