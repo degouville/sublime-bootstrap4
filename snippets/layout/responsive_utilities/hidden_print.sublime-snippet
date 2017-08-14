@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<div class="hidden-print">
-  	$1
-</div>
-]]></content>
-	<tabTrigger>utilities:hidden_print</tabTrigger>
-</snippet>

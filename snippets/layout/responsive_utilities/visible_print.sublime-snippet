@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<div class="visible-print-${1:block|inline|inline-block}">
-  	$2
-</div>
-]]></content>
-	<tabTrigger>utilities:visible_print</tabTrigger>
-</snippet>

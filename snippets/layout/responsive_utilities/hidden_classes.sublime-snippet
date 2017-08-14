@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<div class="col-${1:sm|md|lg}-${2:1|12} hidden-${3:sm|md|lg|xl}-${4:down|up}">
-	$5
-</div>
-]]></content>
-	<tabTrigger>utilities:hidden_classes</tabTrigger>
-</snippet>

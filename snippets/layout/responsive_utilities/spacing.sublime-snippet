@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<div class="${1:m|p}${2:t|b|l|r|x|y}-${3:0-5}">
+	  ${4:...}
+</div>
+]]></content>
+	<tabTrigger>utilities:spacing</tabTrigger>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<div class="mx-auto" style="width: ${1:200px}">
+	${2:Centered element}
+</div>
+]]></content>
+	<tabTrigger>utilities:spacing:centered</tabTrigger>
+</snippet>
