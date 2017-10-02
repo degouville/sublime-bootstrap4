@@ -13,5 +13,5 @@
 	</label>
 </div>
 ]]></content>
-	<tabTrigger>form:radio:stacked:custom</tabTrigger>
+	<tabTrigger>b4:form:radio:stacked:custom</tabTrigger>
 </snippet>

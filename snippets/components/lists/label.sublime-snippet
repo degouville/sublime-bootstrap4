@@ -15,5 +15,5 @@
 			</li>
 		</ul>
 ]]></content>
-	<tabTrigger>list:label</tabTrigger>
+	<tabTrigger>b4:list:label</tabTrigger>
 </snippet>

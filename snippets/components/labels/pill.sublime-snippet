@@ -2,5 +2,5 @@
 	<content><![CDATA[
         <span class="label label-pill label-${1:default|primary|success|info|warning|danger}">$2</span>
 ]]></content>
-	<tabTrigger>label:context</tabTrigger>
+	<tabTrigger>b4:label:context</tabTrigger>
 </snippet>

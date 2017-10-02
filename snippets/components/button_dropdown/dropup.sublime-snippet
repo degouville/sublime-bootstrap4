@@ -10,5 +10,5 @@
 	</div>
 </div>
 ]]></content>
-	<tabTrigger>button_dropdown:dropup</tabTrigger>
+	<tabTrigger>b4:button_dropdown:dropup</tabTrigger>
 </snippet>

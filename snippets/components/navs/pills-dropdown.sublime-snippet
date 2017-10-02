@@ -22,5 +22,5 @@
 			</li>
 		</ul>
 ]]></content>
-    <tabTrigger>nav:pills:dropdown</tabTrigger>
+    <tabTrigger>b4:nav:pills:dropdown</tabTrigger>
 </snippet>

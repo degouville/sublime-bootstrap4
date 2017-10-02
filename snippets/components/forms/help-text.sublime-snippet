@@ -4,5 +4,5 @@
 	Some inline text with a small tag looks like this.
 </small>
 ]]></content>
-	<tabTrigger>form:text:help</tabTrigger>
+	<tabTrigger>b4:form:text:help</tabTrigger>
 </snippet>

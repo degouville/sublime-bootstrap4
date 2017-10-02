@@ -53,5 +53,5 @@
 	</div>
 </form>
 ]]></content>
-	<tabTrigger>form:grid</tabTrigger>
+	<tabTrigger>b4:form:grid</tabTrigger>
 </snippet>

@@ -7,5 +7,5 @@
 		<h5>${2:Example heading <span class="label label-default">${1:New}</span>}</h5>
 		<h6>${2:Example heading <span class="label label-default">${1:New}</span>}</h6>
 ]]></content>
-	<tabTrigger>label:heading</tabTrigger>
+	<tabTrigger>b4:label:heading</tabTrigger>
 </snippet>

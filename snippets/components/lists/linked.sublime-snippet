@@ -6,5 +6,5 @@
 			<a href="#" class="list-group-item">${1:Morbi leo risus}</a>
 		</div>
 ]]></content>
-	<tabTrigger>list:label</tabTrigger>
+	<tabTrigger>b4:list:label</tabTrigger>
 </snippet>

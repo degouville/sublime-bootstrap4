@@ -53,5 +53,5 @@
 	</div>
 </form>
 ]]></content>
-	<tabTrigger>form:checkbox</tabTrigger>
+	<tabTrigger>b4:form:checkbox</tabTrigger>
 </snippet>

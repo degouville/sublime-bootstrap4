@@ -19,5 +19,5 @@
 			</div>
 		</div>
 ]]></content>
-	<tabTrigger>input_group:addon</tabTrigger>
+	<tabTrigger>b4:input_group:addon</tabTrigger>
 </snippet>

@@ -10,5 +10,5 @@
 	<input type="checkbox" id="${1:inlineCheckbox3}" value="${2:option3}"> ${3:3}
 </label>
 ]]></content>
-	<tabTrigger>form:checkbox:inline</tabTrigger>
+	<tabTrigger>b4:form:checkbox:inline</tabTrigger>
 </snippet>

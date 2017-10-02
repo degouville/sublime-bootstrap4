@@ -6,5 +6,5 @@
 	</label>
 </div>
 ]]></content>
-	<tabTrigger>form:radio:wo_label</tabTrigger>
+	<tabTrigger>b4:form:radio:wo_label</tabTrigger>
 </snippet>

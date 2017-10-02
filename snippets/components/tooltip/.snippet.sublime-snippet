@@ -4,5 +4,5 @@
 			${2:Tooltip on ${1:top|right|bottom|left}}
 		</button>
 ]]></content>
-	<tabTrigger>tooltip</tabTrigger>
+	<tabTrigger>b4:tooltip</tabTrigger>
 </snippet>

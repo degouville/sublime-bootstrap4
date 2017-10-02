@@ -10,5 +10,5 @@
 	<input type="radio" name="${1:inlineRadioOptions}" id="${2:inlineRadio3}" value="${3:option3}"> ${3:3}
 </label>
 ]]></content>
-	<tabTrigger>form:radio:inline</tabTrigger>
+	<tabTrigger>b4:form:radio:inline</tabTrigger>
 </snippet>

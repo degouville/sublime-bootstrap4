@@ -21,5 +21,5 @@
 			</div><!-- /.modal-dialog -->
 		</div><!-- /.modal -->
 ]]></content>
-	<tabTrigger>modal</tabTrigger>
+	<tabTrigger>b4:modal</tabTrigger>
 </snippet>

@@ -5,5 +5,5 @@
 	<input type="email" class="form-control" id="${1:exampleInputEmail3}" placeholder="${10:Enter email}">
 </div>
 ]]></content>
-	<tabTrigger>form:hidden</tabTrigger>
+	<tabTrigger>b4:form:hidden</tabTrigger>
 </snippet>

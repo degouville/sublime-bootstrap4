@@ -15,5 +15,5 @@
 	</div>
 </form>
 ]]></content>
-	<tabTrigger>form:static_control</tabTrigger>
+	<tabTrigger>b4:form:static_control</tabTrigger>
 </snippet>

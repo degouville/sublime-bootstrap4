@@ -8,5 +8,5 @@
 	${1:<strong>Holy guacamole!</strong> You should check in on some of those fields below.}
 </div>
 ]]></content>
-	<tabTrigger>alert:dismissible</tabTrigger>
+	<tabTrigger>b4:alert:dismissible</tabTrigger>
 </snippet>

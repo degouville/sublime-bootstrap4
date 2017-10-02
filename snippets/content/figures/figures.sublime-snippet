@@ -5,5 +5,5 @@
 	<figcaption class="figure-caption">$3</figcaption>
 </figure>
 ]]></content>
-	<tabTrigger>content:figure</tabTrigger>
+	<tabTrigger>b4:content:figure</tabTrigger>
 </snippet>

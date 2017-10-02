@@ -7,5 +7,5 @@
 	<option value="3">Three</option>
 </select>
 ]]></content>
-	<tabTrigger>form:select-menu:custom</tabTrigger>
+	<tabTrigger>b4:form:select-menu:custom</tabTrigger>
 </snippet>

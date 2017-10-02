@@ -2,5 +2,5 @@
 	<content><![CDATA[
 <input class="form-control {2:form-control-{1:sm|lg}}" type="text" placeholder="${3:.input...}">
 ]]></content>
-	<tabTrigger>form:input:sizing</tabTrigger>
+	<tabTrigger>b4:form:input:sizing</tabTrigger>
 </snippet>

@@ -38,5 +38,5 @@
 	</div>
 </div>
 ]]></content>
-	<tabTrigger>form:validation</tabTrigger>
+	<tabTrigger>b4:form:validation</tabTrigger>
 </snippet>
