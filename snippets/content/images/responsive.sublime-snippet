@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<img src="$1" class="img-responsive" alt="$2">
+<img src="$1" class="img-fluid" alt="$2">
 ]]></content>
-	<tabTrigger>b4:image:responsive</tabTrigger>
+	<tabTrigger>b4:image:fluid</tabTrigger>
 </snippet>
