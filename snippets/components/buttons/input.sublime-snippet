@@ -2,5 +2,5 @@
 	<content><![CDATA[
 <input class="btn btn-primary" type="button" value="$2">
 ]]></content>
-	<tabTrigger>button:input</tabTrigger>
+	<tabTrigger>b4:button:input</tabTrigger>
 </snippet>

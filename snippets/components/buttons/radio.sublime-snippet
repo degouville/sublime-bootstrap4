@@ -12,5 +12,5 @@
 	</label>
 </div>
 ]]></content>
-	<tabTrigger>button:radio</tabTrigger>
+	<tabTrigger>b4:button:radio</tabTrigger>
 </snippet>

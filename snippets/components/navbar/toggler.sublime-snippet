@@ -23,5 +23,5 @@
           </div>
         </nav>
 ]]></content>
-		<tabTrigger>navbar:toggler</tabTrigger>
+		<tabTrigger>b4:navbar:toggler</tabTrigger>
 </snippet>

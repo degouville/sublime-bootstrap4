@@ -6,5 +6,5 @@
 	Check this custom checkbox
 </label>
 ]]></content>
-	<tabTrigger>form:checkbox:custom</tabTrigger>
+	<tabTrigger>b4:form:checkbox:custom</tabTrigger>
 </snippet>

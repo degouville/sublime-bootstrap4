@@ -4,7 +4,7 @@
 	${1:<strong>Well done!</strong> You successfully read this important alert message.}
 </div>
 ]]></content>
-	<tabTrigger>alert:success</tabTrigger>
+	<tabTrigger>b4:alert:success</tabTrigger>
 </snippet>
 
 <!--

@@ -46,5 +46,5 @@
 			</button>
 		</div>
 ]]></content>
-	<tabTrigger>modal:grid</tabTrigger>
+	<tabTrigger>b4:modal:grid</tabTrigger>
 </snippet>

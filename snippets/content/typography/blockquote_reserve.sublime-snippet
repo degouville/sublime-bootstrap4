@@ -5,5 +5,5 @@
 	<footer>${2:Someone famous in} <cite title="${3:Source Title}">${3:Source Title}</cite></footer>
 </blockquote>
 ]]></content>
-	<tabTrigger>typography:blockquotes_reverse</tabTrigger>
+	<tabTrigger>b4:typography:blockquotes_reverse</tabTrigger>
 </snippet>

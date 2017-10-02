@@ -5,5 +5,5 @@
 	<span class="file-custom"></span>
 </label>
 ]]></content>
-	<tabTrigger>form:file-browser</tabTrigger>
+	<tabTrigger>b4:form:file-browser</tabTrigger>
 </snippet>

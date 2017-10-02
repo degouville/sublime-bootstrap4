@@ -4,5 +4,5 @@
 			<li class="list-group-item list-group-item-${1:success|info|warning|danger}">${2:Dapibus ac facilisis in}</li>
 		</ul>
 ]]></content>
-	<tabTrigger>list:context</tabTrigger>
+	<tabTrigger>b4:list:context</tabTrigger>
 </snippet>

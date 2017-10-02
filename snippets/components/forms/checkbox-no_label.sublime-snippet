@@ -6,5 +6,5 @@
 	</label>
 </div>
 ]]></content>
-	<tabTrigger>form:checkbox:wo_label</tabTrigger>
+	<tabTrigger>b4:form:checkbox:wo_label</tabTrigger>
 </snippet>

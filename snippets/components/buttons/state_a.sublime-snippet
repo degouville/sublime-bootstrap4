@@ -2,5 +2,5 @@
 	<content><![CDATA[
 <a href="#" class="btn btn-primary ${1:active|disabled}" role="button">$2</a>
 ]]></content>
-	<tabTrigger>button:state:a</tabTrigger>
+	<tabTrigger>b4:button:state:a</tabTrigger>
 </snippet>

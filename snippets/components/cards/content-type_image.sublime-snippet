@@ -7,5 +7,5 @@
 	<a href="${3:#}" class="card-link">${2:Another link}</a>
 </div>
 ]]></content>
-	<tabTrigger>cards:content_type:img</tabTrigger>
+	<tabTrigger>b4:cards:content_type:img</tabTrigger>
 </snippet>

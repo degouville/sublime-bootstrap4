@@ -17,5 +17,5 @@
 	<img class="card-img-bottom" data-src="${1:holder.js/100%x180/}" alt="${2:Card image cap}">
 </div>
 ]]></content>
-	<tabTrigger>cards:image:caps</tabTrigger>
+	<tabTrigger>b4:cards:image:caps</tabTrigger>
 </snippet>

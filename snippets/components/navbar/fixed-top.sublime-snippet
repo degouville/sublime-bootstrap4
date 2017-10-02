@@ -4,5 +4,5 @@
           <a class="navbar-brand" href="${1:#}">${2:Fixed top}</a>
         </nav>
 ]]></content>
-		<tabTrigger>navbar:fixed:top</tabTrigger>
+		<tabTrigger>b4:navbar:fixed:top</tabTrigger>
 </snippet>

@@ -22,5 +22,5 @@
 			<span class="input-group-addon">.00</span>
 		</div>
 ]]></content>
-	<tabTrigger>input_group</tabTrigger>
+	<tabTrigger>b4:input_group</tabTrigger>
 </snippet>

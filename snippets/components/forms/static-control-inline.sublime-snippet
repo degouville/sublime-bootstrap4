@@ -12,5 +12,5 @@
 	<button type="submit" class="btn btn-primary">Confirm identity</button>
 </form>
 ]]></content>
-	<tabTrigger>form:static_control:inline</tabTrigger>
+	<tabTrigger>b4:form:static_control:inline</tabTrigger>
 </snippet>

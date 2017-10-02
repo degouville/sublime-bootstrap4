@@ -6,5 +6,5 @@
           </nav>
         </div>
 ]]></content>
-		<tabTrigger>navbar:container:out</tabTrigger>
+		<tabTrigger>b4:navbar:container:out</tabTrigger>
 </snippet>

@@ -15,5 +15,5 @@
 			<input type="text" class="form-control" placeholder="${1:Username}" aria-describedby="sizing-addon3">
 		</div>
 ]]></content>
-	<tabTrigger>input_group:sizing</tabTrigger>
+	<tabTrigger>b4:input_group:sizing</tabTrigger>
 </snippet>
