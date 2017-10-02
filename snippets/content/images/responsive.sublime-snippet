@@ -2,5 +2,5 @@
 	<content><![CDATA[
 <img src="$1" class="img-fluid" alt="$2">
 ]]></content>
-	<tabTrigger>image:fluid</tabTrigger>
+	<tabTrigger>b4:image:fluid</tabTrigger>
 </snippet>
