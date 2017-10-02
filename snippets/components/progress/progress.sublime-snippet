@@ -2,7 +2,7 @@
 	<content><![CDATA[
 		<progress class="progress" value="${1:10}" max="100">$2</progress>
 ]]></content>
-	<tabTrigger>progress</tabTrigger>
+	<tabTrigger>b4:progress</tabTrigger>
 </snippet>
 
 

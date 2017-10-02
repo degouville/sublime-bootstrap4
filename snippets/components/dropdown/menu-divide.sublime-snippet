@@ -8,5 +8,5 @@
 	<a class="dropdown-item" href="${1:#}">${2:Separated link}</a>
 </div>
 ]]></content>
-	<tabTrigger>dropdown:menu:divider</tabTrigger>
+	<tabTrigger>b4:dropdown:menu:divider</tabTrigger>
 </snippet>

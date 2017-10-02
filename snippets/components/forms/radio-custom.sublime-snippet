@@ -11,5 +11,5 @@
 	Or toggle this other custom radio
 </label>
 ]]></content>
-	<tabTrigger>form:radio:custom</tabTrigger>
+	<tabTrigger>b4:form:radio:custom</tabTrigger>
 </snippet>

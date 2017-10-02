@@ -16,7 +16,7 @@
 	<dd class="col-sm-9">${9:Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.}</dd>
 </dl>
 ]]></content>
-	<tabTrigger>typography:disabled_list</tabTrigger>
+	<tabTrigger>b4:typography:disabled_list</tabTrigger>
 </snippet>
 
 <!--

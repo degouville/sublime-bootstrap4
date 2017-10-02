@@ -6,5 +6,5 @@
 	<button type="button" class="btn btn-secondary">${2:Right}</button>
 </div>
 ]]></content>
-	<tabTrigger>button_group</tabTrigger>
+	<tabTrigger>b4:button_group</tabTrigger>
 </snippet>

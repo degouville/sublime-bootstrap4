@@ -11,5 +11,5 @@
 	</fieldset>
 </form>
 ]]></content>
-	<tabTrigger>form:group</tabTrigger>
+	<tabTrigger>b4:form:group</tabTrigger>
 </snippet>

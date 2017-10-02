@@ -12,5 +12,5 @@
 	</label>
 </div>
 ]]></content>
-	<tabTrigger>button:checkbox</tabTrigger>
+	<tabTrigger>b4:button:checkbox</tabTrigger>
 </snippet>

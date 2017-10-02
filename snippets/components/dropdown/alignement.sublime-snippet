@@ -4,5 +4,5 @@
 	${1:...}
 </div>
 ]]></content>
-	<tabTrigger>dropdown:align</tabTrigger>
+	<tabTrigger>b4:dropdown:align</tabTrigger>
 </snippet>

@@ -12,5 +12,5 @@
           </button>
         </nav>
 ]]></content>
-		<tabTrigger>navbar:collapse</tabTrigger>
+		<tabTrigger>b4:navbar:collapse</tabTrigger>
 </snippet>

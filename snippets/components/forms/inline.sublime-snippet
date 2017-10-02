@@ -12,5 +12,5 @@
 	<button type="submit" class="btn btn-primary">Send invitation</button>
 </form>
 ]]></content>
-	<tabTrigger>form:inline</tabTrigger>
+	<tabTrigger>b4:form:inline</tabTrigger>
 </snippet>

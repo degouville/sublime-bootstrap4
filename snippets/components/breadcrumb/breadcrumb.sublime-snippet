@@ -13,5 +13,5 @@
 		<li class="active">${3:Data}</li>
 	</ol>
 ]]></content>
-	<tabTrigger>breadcrumb</tabTrigger>
+	<tabTrigger>b4:breadcrumb</tabTrigger>
 </snippet>

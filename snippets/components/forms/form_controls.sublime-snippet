@@ -65,5 +65,5 @@
 	<button type="submit" class="btn btn-primary">Submit</button>
 </form>
 ]]></content>
-	<tabTrigger>form_controls</tabTrigger>
+	<tabTrigger>b4:form_controls</tabTrigger>
 </snippet>

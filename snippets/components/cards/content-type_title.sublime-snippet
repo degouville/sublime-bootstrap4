@@ -13,5 +13,5 @@
 	</div>
 </div>
 ]]></content>
-	<tabTrigger>cards:content_type:title</tabTrigger>
+	<tabTrigger>b4:cards:content_type:title</tabTrigger>
 </snippet>
