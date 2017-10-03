@@ -14,25 +14,27 @@ Feel free to let me know what else you want added via:
 
 ![](https://cdn.dribbble.com/users/2404/screenshots/3438305/sublime-text-preview.png)
 
-##### Install :
+## Installation
 There are 3 methods for installing this plugin.
 
 1. Search for "Bootstrap 4 Snippets" via the "Package Control: Install Packages" menu.
 **Note:** If you don't have Sublime Package Control installed, you can find out how to install it here [https://sublime.wbond.net/installation](https://sublime.wbond.net/installation)
 
 2. Clone the repository into your Sublime Text 2/3 packages directory.
-`git clone https://github.com/mdegoo/sublime-bootstrap4.git`
+`git clone https://github.com/degouville/sublime-bootstrap4.git`
 
 3. Download the .zip file and unzip it into your Sublime Text 2/3 packages directory.
 **Note:** You can find your Sublime Text 2/3 packages directory by going to Preferences > Browse Packages.
 
-<!--
-### Usage :
+## Usage
 
-Start typing `<foo` in html files and the autocomplete window opens. It matches fuzzily. So you can type `<th5` to find the `template:html5` snippet.
--->
+Start typing `b4` in HTML files and the autocomplete window opens. It matches fuzzily. So you can type `b4danger` to find the `b4:alert:danger` snippet.
 
-# Key Features :
+Ensure you have enabled "b4" in your Preferences.sublime-settings:
+
+`"auto_complete_triggers": [{"selector": "text.html", "characters": "b4"}]`
+
+## Key Features :
 
   - Supports autocompletion of all helper classes in JavaScript, CSS and HTML
   - Snippet support for all components.
