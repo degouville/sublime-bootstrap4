@@ -6,5 +6,5 @@
 	<li>$3</li>
 </ul>
 ]]></content>
-	<tabTrigger>b4:typography:list_unstyled</tabTrigger>
+	<tabTrigger>b4:list_unstyled</tabTrigger>
 </snippet>

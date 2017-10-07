@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
 <figure class="figure">
-	<img data-src="$1" class="img-rounded" alt="$2">
-	<figcaption class="figure-caption">$3</figcaption>
+	<img src="$1" class="figure-img img-fluid${2: rounded}" alt="$3">
+	<figcaption class="figure-caption">$4</figcaption>
 </figure>
 ]]></content>
-	<tabTrigger>b4:content:figure</tabTrigger>
+	<tabTrigger>b4:figure</tabTrigger>
 </snippet>
