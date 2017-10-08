@@ -90,33 +90,33 @@ Ensure you have enabled "b4" in your Preferences.sublime-settings:
 ###### <a name="templates">Templates</a>
 | Snippets                             | Descriptions                          |
 | :----------------------------        | :------------------------------------ |
-| b4:template:html5                    | Generates a Basic HTML5 Template      |
-| b4:template:cdn                      | Generates CSS & JS call using CDN     |
-| b4:template:cdn_css                  | Generates CSS call using CDN          |
-| b4:template:cdn_js                   | Generates JS call using CDN           |
-| b4:template:cdn_css                  | Generates CSS call using local file   |
-| b4:template:cdn_js                   | Generates JS call using local file    |
+| b4:html5                    | Generates a Basic HTML5 Template      |
+| b4:cdn                      | Generates CSS & JS call using CDN     |
+| b4:cdn_css                  | Generates CSS call using CDN          |
+| b4:cdn_js                   | Generates JS call using CDN           |
+| b4:cdn_css                  | Generates CSS call using local file   |
+| b4:cdn_js                   | Generates JS call using local file    |
 
 ###### <a name="examples">Examples</a>
 | Snippets                             | Descriptions                          |
 | :----------------------------        | :------------------------------------ |
-| b4:example:starter                   | Generates a Starter Template          |
-| b4:example:album                     | Generates an Album Template           |
-| b4:example:carousel                  | Generates a Carousel Template         |
-| b4:example:grids                     | Generates a Grids Template            |
-| b4:example:cover                     | Generates a Cover Template            |
-| b4:example:dashboard                 | Generates a Dashboard Template        |
-| b4:example:jumbotron                 | Generates a Jumbotron Template        |
-| b4:example:narrow_jumbotron          | Generates a Narrow Jumbotron Template |
-| b4:example:navbars                   | Generates a Navbars Template          |
-| b4:example:offcanvas                 | Generates a OffCanvas Template        |
-| b4:example:navbar_top_fixed          | Generates a Navbar Top Fixed Template |
-| b4:example:navbar_top                | Generates a Navbar Top Template       |
-| b4:example:justified_nav             | Generates a Justified nav Template    |
-| b4:example:sticky_footer             | Generates a Sticky footer Template    |
-| b4:example:sticky_footer+navbar      | Generates a Sticky footer w/ navbar...|
-| b4:example:sign_in                   | Generates a Sign_in Template          |
-| b4:example:blog                      | Generates a Blog Template             |
+| b4:starter                   | Generates a Starter Template          |
+| b4:album                     | Generates an Album Template           |
+| b4:carousel                  | Generates a Carousel Template         |
+| b4:grids                     | Generates a Grids Template            |
+| b4:cover                     | Generates a Cover Template            |
+| b4:dashboard                 | Generates a Dashboard Template        |
+| b4:jumbotron                 | Generates a Jumbotron Template        |
+| b4:narrow_jumbotron          | Generates a Narrow Jumbotron Template |
+| b4:navbars                   | Generates a Navbars Template          |
+| b4:offcanvas                 | Generates a OffCanvas Template        |
+| b4:navbar_top_fixed          | Generates a Navbar Top Fixed Template |
+| b4:navbar_top                | Generates a Navbar Top Template       |
+| b4:justified_nav             | Generates a Justified nav Template    |
+| b4:sticky_footer             | Generates a Sticky footer Template    |
+| b4:sticky_footer+navbar      | Generates a Sticky footer w/ navbar...|
+| b4:sign_in                   | Generates a Sign_in Template          |
+| b4:blog                      | Generates a Blog Template             |
 
 ### Layout
 
@@ -124,16 +124,16 @@ Ensure you have enabled "b4" in your Preferences.sublime-settings:
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
 | b4:grid                              | Generates a grid                      |
-| b4:grid:container                    | Generates a container                 |
-| b4:grid:container_fluid              | Generates a fluid container           |
-| b4:grid:row                          | Generates a row                       |
-| b4:grid:col                          | Generates a column                    |
-| b4:grid:column                       | Generates a column w/ options         |
-| b4:grid:col_sm                       | Generates a small column              |
-| b4:grid:col_md                       | Generates a medium column             |
-| b4:grid:col_lg                       | Generates a large column              |
-| b4:grid:col_xl                       | Generates a extra large column        |
-| b4:grid:col_flex                     | Generates a flexbox column            |
+| b4:container                    | Generates a container                 |
+| b4:container_fluid              | Generates a fluid container           |
+| b4:row                          | Generates a row                       |
+| b4:col                          | Generates a column                    |
+| b4:column                       | Generates a column w/ options         |
+| b4:col_sm                       | Generates a small column              |
+| b4:col_md                       | Generates a medium column             |
+| b4:col_lg                       | Generates a large column              |
+| b4:col_xl                       | Generates a extra large column        |
+| b4:col_flex                     | Generates a flexbox column            |
 
 ###### <a name="media">Media</a>
 | Snippets                             | Descriptions                          |
@@ -151,329 +151,10 @@ Ensure you have enabled "b4" in your Preferences.sublime-settings:
 | b4:utilities:spacing                 | Generates a Spacing options snippet   |
 | b4:utilities:spacing:centered        | Generates a Spacing centered snippet  |
 
-<!--
-### Content
-
-###### <a name="typography">Typography</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| typography:text_muted                | Generates a  Text Muted               |
-| typography:display_heading           | Generates a  Display Heading          |
-| typography:lead                      | Generates a  Lead                     |
-
-| typography:blockquotes               | Generates a  Blockquotes              |
-| typography:blockquotes_reverse       | Generates a  Blockquotes Reverse      |
-| typography:list_unstyled             | Generates a  List Unstyled            |
-| typography:list_inline               | Generates a  List Inline              |
-| typography:horizontal_description    | Generates a  Horizontal Description   |
-| typography:responsive_image -        | Generates a  Responsive Image -       |
-| typography:image_rounded -           | Generates an Image Rounded -          |
-| typography:image_circle -            | Generates an Image Circle -           |
-| typography:image_thumbnail -         | Generates an Image Thumbnail -        |
-| typography:image_left -              | Generates an Image Left -             |
-| typography:image_right -             | Generates an Image Right -            |
-| typography:image_center -            | Generates an Image Center -           |
-
-###### <a name="tables">Tables</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| tables:table                         | Generates a  Table                    |
-
-| tables:tables                        | Generates a  Tables (full option)     |
-| tables:head_inverse                  | Generates a  Tables Head Inverse      |
-| tables:responsive                    | Generates a  Tables Responsive        |
-| tables:colspan                       | Generates a  Tables Colspan           |
-| tables:colors_tr                     | Generates a  Tables Colors (tr)       |
-| tables:colors_td                     | Generates a  Tables Colors (td)       |
-
-###### <a name="figures">Figures</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| content:figure                       | Generates a  Figure                   |
-
-### Components
-
-###### <a name="buttons">Buttons</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| buttons                              | Generates a  Button                   |
-
-| buttons:colors                       | Generates a  Button colors            |
-| buttons:outline                      | Generates a  Button Outline           |
-| buttons:a                            | Generates a  Button < a >             |
-| buttons:input                        | Generates a  Button < input >         |
-| buttons:sizes                        | Generates a  Button sizes             |
-| buttons:block                        | Generates a  Button block             |
-| buttons:state_a                      | Generates a  Button state < a>        |
-| buttons:state                        | Generates a  Button state             |
-| buttons:toggle                       | Generates a  Button toggle            |
-| buttons:plugin Radio                 | Generates a  Button plugin Radio      |
-
-###### <a name="button-group">Button group</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| button-group                         | Generates a  Button group             |
-
-| button-group:toolbar                 | Generates a  Button toolbar           |
-| button-group:group_size              | Generates a  Button group size        |
-| button-group:dropdown                | Generates a  Button dropdown          |
-
-
-###### <a name="button-dropdown">Button dropdown</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| button-dropdown                      | Generates a  Button dropdown          |
-
-| button-dropup                        | Generates a  Button dropup            |
-
-
-###### <a name="forms">Forms</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| form                                 | Generates a  Form Controls            |
-
-| form:group                           | Generates a  Form group               |
-| form:inline                          | Generates a  Form inline              |
-| form:hidden_label                    | Generates a  Form hidden label        |
-| form:grid                            | Generates a  Form w/ Grid             |
-| form:checkbox                        | Generates a  Form Checkbox            |
-| form:checkbox_inline                 | Generates a  Form Checkbox inline     |
-| form:radio                           | Generates a  Form Radio               |
-| form:radio_inline                    | Generates a  Form Radio inline        |
-| form:radio_without_label             | Generates a  Form Radio w/o label     |
-| form:static_controls                 | Generates a  Form Static Controls     |
-| form:disabled_state                  | Generates a  Form disabled state      |
-| form:readonly                        | Generates a  Form Readonly            |
-| form:input_sizing                    | Generates a  Form input sizing        |
-| form:select_sizing                   | Generates a  Form select sizing       |
-| form:column_sizing                   | Generates a  Form column sizing       |
-| form:help_text                       | Generates a  Form Help text           |
-| form:validation                      | Generates a  Form Validation          |
-| form:custom_checkbox                 | Generates a  Form Custom checkbox     |
-| form:custom_radio                    | Generates a  Form Custom radio        |
-
-
-###### <a name="input-group">Input group</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| input-group                          | Generates an Input Group              |
-
-| input-group:sizing                   | Generates an Input Group Sizing       |
-| input-group:buttons_addons           | Generates a Buttons addons            |
-| input-group:Buttons_without_dropdowns| Generates a Buttons w/ dropdowns      |
-| input-group:segmented_buttons        | Generates a Segmented buttons         |
-
-###### <a name="dropdowns">Dropdowns</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| dropdown                             | Generates a  Dropdown                 |
-
-| dropdown:drpagm                      | Generates a  Dropdown Alignement      |
-| dropdown:drpmh                       | Generates a  Dropdown menu header     |
-
-
-###### <a name="jumbotron">Jumbotron</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| jumbotron                            | Generates a  Jumbotron                |
-
-| jumbotron:fluid                      | Generates a  Fluid Jumbotron          |
-
-###### <a name="label">Label</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| label                                | Generates a Label                     |
-
-| label:context                        | Generates a Label context             |
-| label:pill                           | Generates a Label pill                |
-
-
-###### <a name="alerts">Alerts</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| alerts:success                       | Generates an Alert success            |
-
-| alerts:info                          | Generates an Alert info               |
-| alerts:warning                       | Generates an Alert warning            |
-| alerts:danger                        | Generates an Alert danger             |
-| alerts:dismissing                    | Generates an Alert dismissing         |
-
-###### <a name="card">Card</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| Cards:                               | Generates a  Cards                    |
-
-| Cards:content_type                   | Generates a  Cards content type       |
-| Cards:sizing                         | Generates a  Cards sizing             |
-| Cards:text_alignment                 | Generates a  Cards Text alignment     |
-| Cards:image_caps                     | Generates a  Cards image caps         |
-| Cards:image_verlays                  | Generates a  Cards image overlays     |
-| Cards:inverted_text                  | Generates a  Cards inverted text      |
-| Cards:groups                         | Generates a  Cards groups             |
-| Cards:decks                          | Generates a  Cards decks              |
-| Cards:columns                        | Generates a  Cards columns            |
-| Cards:groups                         | Generates a  Cards groups             |
-| Cards:groups                         | Generates a  Cards groups             |
-
-###### <a name="navs">Navs</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| nav                                  | Generates a  Nav                      |
-
-| nav:inline                           | Generates a  Nav inline               |
-| nav:tabs                             | Generates a  Nav tabs                 |
-| nav:pills                            | Generates a  Nav pills                |
-| nav:pills_stacked                    | Generates a  Nav pills stacked        |
-| nav:tabs_dropdown                    | Generates a  Nav tabs w/ dropdown     |
-
-###### <a name="navbar">Navbar</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| navbar:                              | Generates a  Navbar                   |
-
-| navbar:color                         | Generates a  Navbar color             |
-| navbar:container_out                 | Generates a  Navbar container out     |
-| navbar:container_in                  | Generates a  Navbar container in      |
-| navbar:fixed_top                     | Generates a  Navbar fixed top         |
-| navbar:fixed_bottom                  | Generates a  Navbar fixed bottom      |
-| navbar:collapse                      | Generates a  Navbar collapse          |
-| navbar:toggler                       | Generates a  Navbar toggler           |
-
-###### <a name="breadcrumb">Breadcrumb</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| breadcrumb                           | Generates a  Breadcrumb               |
-
-###### <a name="pagination">Pagination</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| pagination                           | Generates a  Pagination               |
-
-| pagination:sz                        | Generates a  Pagination               |
-| pagination:pager                     | Generates a  Pagination pager         |
-
-###### <a name="progress">Progress</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| progress                             | Generates a  Progress                 |
-
-| progress:context                     | Generates a  Progress context         |
-| progress:striped                     | Generates a  Progress striped         |
-
-
-###### <a name="list-group">List group</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| list-group                           | Generates a  List                     |
-
-| list-group:label                     | Generates a  List label               |
-| list-group:linked                    | Generates a  List linked              |
-| list-group:button                    | Generates a  List button              |
-| list-group:disabled_items            | Generates a  List disabled items      |
-| list-group:context                   | Generates a  List context             |
-| list-group:custom_content            | Generates a  List custom content      |
-
-
-###### <a name="modal">Modal</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| modal                                | Generates a  Modal                    |
-
-| modal:sizes                          | Generates a  Modal sizes              |
-| modal:grid                           | Generates a  Modal grid               |
-| modal:content_based                  | Generates a  Modal content based      |
-
-
-###### <a name="scrollspy">Scrollspy</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| scrollspy                            | Generates a  Scrollspy                |
-
-###### <a name="tooltips">Tooltips</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| tooltip                              | Generates a  Tooltip                  |
-
-###### <a name="popovers">Popovers</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| popover                              | Generates a  Popover                  |
-| popover:direction                    | Generates a  Popover direction        |
-
-###### <a name="collapse">Collapse</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| collapse                             | Generates a  Collapse                 |
-| collapse:accordion                   | Generates a  Collapse accordion       |
-
-###### <a name="carousel">Carousel</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| carousel                             | Generates a  Carousel                 |
-| carousel:caption                     | Generates a  Carousel caption         |
-
-
-###### <a name="utilities">Utilities</a>
-| Snippets                             | Descriptions                          |
-| :-------------                       | :------------------------------------ |
-| utilities:text_alignment             | Generates a  Text alignment           |
-| utilities:text_transform             | Generates a  Text transform           |
-| utilities:text_context colors        | Generates a  Text context colors      |
-| utilities:close_icon                 | Generates a  Close icon               |
-| utilities:center_block               | Generates a  Center block             |
-| utilities:clearfix                   | Generates a  Clearfix                 |
-| utilities:hidden_content             | Generates a  Hidden content           |
-| utilities:invisible_content          | Generates an Invisible content        |
-| utilities:screen_reader              | Generates a  Screen reader            |
-| utilities:image_replacement          | Generates an Image replacement        |
-| utilities:responsive_embeds          | Generates a  Responsive embeds        |
--->
-
 
 ---
 
 [**Back to Top**](#menu)
-
----
-
-## Roadmap
-
-<!-- TODO: Detail all features -->
-###### Getting Started
-- [x] Templates
-- [x] Examples
-###### Layout
-- [ ] Grid
-- [ ] Media
-- [ ]  Responsive Utilities
-###### Content
-- [ ] Typography
-- [ ] Tables
-- [ ] Figures
-###### Components
-- [ ] Buttons
-- [ ]  Button Group
-- [ ] Forms
-- [ ]  Input Group
-- [ ] Dropdowns
-- [ ] Jumbotron
-- [ ] Label
-- [ ] Alerts
-- [ ] Card
-- [ ] Navs
-- [ ] Navbar
-- [ ] Breadcrumb
-- [ ] Pagination
-- [ ] Progress
-- [ ] List Group
-- [ ] Modal
-- [ ] Scrollspy
-- [ ] Tooltips
-- [ ] Popovers
-- [ ] Collapse
-- [ ] Carousel
-- [ ] Utilities
-
 
 ---
 
