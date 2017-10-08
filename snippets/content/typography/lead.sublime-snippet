@@ -4,5 +4,5 @@
     ${1:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Integer posuere erat a ante.}
 </p>'
 ]]></content>
-	<tabTrigger>b4:typography:lead</tabTrigger>
+	<tabTrigger>b4:lead</tabTrigger>
 </snippet>

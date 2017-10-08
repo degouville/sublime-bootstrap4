@@ -2,58 +2,5 @@
 	<content><![CDATA[
 <small class="text-muted">$1</small>
 ]]></content>
-	<tabTrigger>b4:typography:text_muted</tabTrigger>
+	<tabTrigger>b4:text_muted</tabTrigger>
 </snippet>
-
-<!--
-
-<h1 class="display-${1:1|2|3|4}">$2</h1>
-
-<p class="lead">
-  ${1:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Integer posuere erat a ante.}
-</p>'
-
-
-<blockquote class="blockquote">
-  <p>${1:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.}</p>
-  <footer>${2:Someone famous in} <cite title="${3:Source Title}">${3:Source Title}</cite></footer>
-</blockquote>
-
-
-<blockquote class="blockquote blockquote-reverse">
-  <p>${1:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.}</p>
-  <footer>${2:Someone famous in} <cite title="${3:Source Title}">${3:Source Title}</cite></footer>
-</blockquote>
-
-
-<ul class="list-unstyled">
-  <li>$1</li>
-  <li>$2</li>
-  <li>$3</li>
-</ul>
-
-
-<ul class="list-inline">
-  <li>$1</li>
-  <li>$2</li>
-  <li>$3</li>
-</ul>
-
-
-<dt class="col-sm-3">${1:Description lists}</dt>
-<dl class="dl-horizontal">
-  <dd class="col-sm-9">${2:A description list is perfect for defining terms.}</dd>
-
-  <dt class="col-sm-3">${3:Euismod}</dt>
-  <dd class="col-sm-9">${4:Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.}</dd>
-
-  <dd class="col-sm-9 col-sm-offset-3">${5:Donec id elit non mi porta gravida at eget metus.}</dd>
-
-  <dt class="col-sm-3">${6:Malesuada porta}</dt>
-  <dd class="col-sm-9">${7:Etiam porta sem malesuada magna mollis euismod.}</dd>
-
-  <dt class="col-sm-3 text-truncate">${8:Truncated term is truncated}</dt>
-  <dd class="col-sm-9">${9:Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.}</dd>
-</dl>
-
--->

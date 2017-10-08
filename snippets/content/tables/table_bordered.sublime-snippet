@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<table class="table${1: table-inverse}">
+<table class="table table-bordered${1: table-inverse}${2: table-hover}">
 	<thead>
 		<tr>
 			<th></th>
@@ -13,5 +13,5 @@
 	</tbody>
 </table>
 ]]></content>
-	<tabTrigger>b4:table</tabTrigger>
+	<tabTrigger>b4:table:bordered</tabTrigger>
 </snippet>

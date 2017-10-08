@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-<table class="table${1: table-inverse}">
-	<thead>
+<table class="table">
+	<thead class="thead-${1:default}${2:inverse}">
 		<tr>
 			<th></th>
 		</tr>
@@ -13,5 +13,5 @@
 	</tbody>
 </table>
 ]]></content>
-	<tabTrigger>b4:table</tabTrigger>
+	<tabTrigger>b4:table:head</tabTrigger>
 </snippet>

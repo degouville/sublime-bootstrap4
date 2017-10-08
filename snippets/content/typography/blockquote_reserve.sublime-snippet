@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<blockquote class="blockquote blockquote-reverse">
-	<p>${1:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.}</p>
-	<footer>${2:Someone famous in} <cite title="${3:Source Title}">${3:Source Title}</cite></footer>
-</blockquote>
-]]></content>
-	<tabTrigger>b4:typography:blockquotes_reverse</tabTrigger>
-</snippet>
