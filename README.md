@@ -49,11 +49,11 @@ Ensure you have enabled "b4" in your Preferences.sublime-settings:
 * Getting Started
   - [Imports](#imports)
   - [Templates](#templates)
- * Layout
+* Layout
   - [Grid](#grid)
   - [Media](#media)
   - [Utilities for layout](#utilities-for-layout)
- * Content
+* Content
   - [Typography](#typography)
   - [Tables](#tables)
   - [Images](#images)
@@ -117,7 +117,7 @@ Ensure you have enabled "b4" in your Preferences.sublime-settings:
 | b4:template:navbar_top                | Generates a Navbar Top Template       |
 | b4:template:justified_nav             | Generates a Justified nav Template    |
 | b4:template:sticky_footer             | Generates a Sticky footer Template    |
-| b4:template:sticky_footer+navbar      | Generates a Sticky footer w/ navbar...|
+| b4:template:sticky_footer+navbar      | Generates a Sticky footer with a navbar|
 
 ### Layout
 
