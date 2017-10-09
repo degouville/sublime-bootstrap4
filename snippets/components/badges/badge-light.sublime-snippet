@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<span class="badge${1: badge-pill} badge-light">${2:Badge}</span>
+]]></content>
+	<tabTrigger>b4:badge:light</tabTrigger>
+</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<button type="button" class="btn btn-primary">$1</button>
-]]></content>
-	<tabTrigger>b4:button</tabTrigger>
-</snippet>

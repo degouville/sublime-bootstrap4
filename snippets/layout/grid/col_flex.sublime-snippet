@@ -4,5 +4,5 @@
   	$1
 </div>
 ]]></content>
-	<tabTrigger>b4:grid:col:flex</tabTrigger>
+	<tabTrigger>b4:col:flex</tabTrigger>
 </snippet>

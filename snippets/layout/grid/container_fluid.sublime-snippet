@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<div class="container-fluid">
-	$1
-</div>
-]]></content>
-	<tabTrigger>b4:grid:container_fluid</tabTrigger>
-</snippet>

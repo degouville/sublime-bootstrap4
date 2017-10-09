@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<input class="btn btn-danger${1: btn-${2:lg|sm}}" type="${3:button}" value="${4:Input}">
+]]></content>
+	<tabTrigger>b4:button:input:danger</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<button type="button" class="btn btn-default${1: btn-${2:lg|sm}} btn-block" disabled>${3:Block Button}</button>
+]]></content>
+	<tabTrigger>b4:button:block:disabled</tabTrigger>
+</snippet>

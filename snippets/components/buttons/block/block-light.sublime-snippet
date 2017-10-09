@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<button type="button" class="btn btn-light${1: btn-${2:lg|sm}} btn-block">${3:Block Button}</button>
+]]></content>
+	<tabTrigger>b4:button:block:light</tabTrigger>
+</snippet>

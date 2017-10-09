@@ -4,5 +4,5 @@
 	${1:<strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.}
 </div>
 ]]></content>
-	<tabTrigger>b4:alert:danger:l</tabTrigger>
+	<tabTrigger>b4:alert:danger:link</tabTrigger>
 </snippet>

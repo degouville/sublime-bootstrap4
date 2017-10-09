@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<button type="button" class="btn btn-secondary btn-sm">${1:Secondary}</button>
+]]></content>
+	<tabTrigger>b4:button:small:secondary</tabTrigger>
+</snippet>

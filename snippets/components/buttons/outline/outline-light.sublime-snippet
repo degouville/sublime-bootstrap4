@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<button type="button" class="btn btn-outline-light${1: btn-${2:lg|sm}}">${3:Button}</button>
+]]></content>
+	<tabTrigger>b4:button:outline:light</tabTrigger>
+</snippet>

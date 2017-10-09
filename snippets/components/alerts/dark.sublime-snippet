@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<div class="alert alert-dark" role="alert">
+    ${1:This is a <strong>dark</strong> alert—check it out!}
+</div>
+]]></content>
+	<tabTrigger>b4:alert:dark</tabTrigger>
+</snippet>
