@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<div class="card border-warning">
+	<div class="card-header${1: bg-transparent border-warning}">${2:Header}</div>
+	<div class="card-body text-warning">
+		<h4 class="card-title">${3:Card title}</h4>
+		<p class="card-text">${4:Some quick example text to build on the card title and make up the bulk of the card's content.}</p>
+	</div>
+</div>
+]]></content>
+	<tabTrigger>b4:card:border-warning</tabTrigger>
+</snippet>

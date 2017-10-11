@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+<div class="card-deck">
+	<div class="card">
+		<img class="card-img-top" src="${1:...}" alt="${2:Card image cap}">
+		<div class="card-body">
+			<h4 class="card-title">${3:Card title}</h4>
+			<p class="card-text">${4:This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.}</p>
+		</div>
+		<div class="card-footer">
+			<p class="card-text"><small class="text-muted">${5:Last updated 3 mins ago}</small></p>
+		</div>
+	</div>
+	<div class="card">
+		<img class="card-img-top" src="${6:...}" alt="${7:Card image cap}">
+		<div class="card-body">
+			<h4 class="card-title">${8:Card title}</h4>
+			<p class="card-text">${9:This card has supporting text below as a natural lead-in to additional content.}</p>
+		</div>
+		<div class="card-footer">
+			<p class="card-text"><small class="text-muted">${5:Last updated 3 mins ago}</small></p>
+		</div>
+	</div>
+	<div class="card">
+		<img class="card-img-top" src="${11:...}" alt="${12:Card image cap}">
+		<div class="card-body">
+			<h4 class="card-title">${13:Card title}</h4>
+			<p class="card-text">${14:This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.}</p>
+		</div>
+		<div class="card-footer">
+			<p class="card-text"><small class="text-muted">${5:Last updated 3 mins ago}</small></p>
+		</div>
+	</div>
+</div>
+]]></content>
+	<tabTrigger>b4:card:deck:footer</tabTrigger>
+</snippet>

@@ -1,0 +1,67 @@
+<snippet>
+	<content><![CDATA[
+<div class="card-columns">
+	<div class="card">
+		<img class="card-img-top" src="${1:...}" alt="${2:Card image cap}">
+		<div class="card-body">
+			<h4 class="card-title">${3:Card title that wraps to a new line}</h4>
+			<p class="card-text">${4:This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.}</p>
+		</div>
+	</div>
+	<div class="card p-3">
+		<blockquote class="blockquote mb-0 card-body">
+			<p>${5:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.}</p>
+			<footer class="blockquote-footer">
+				<small class="text-muted">
+					${6:Someone famous in }<cite title="${7:Source Title}">${7:Source Title}</cite>
+				</small>
+			</footer>
+		</blockquote>
+	</div>
+	<div class="card">
+		<img class="card-img-top" src="${8:...}" alt="${9:Card image cap}">
+		<div class="card-body">
+			<h4 class="card-title">${10:Card title}</h4>
+			<p class="card-text">${11:This card has supporting text below as a natural lead-in to additional content.}</p>
+			<p class="card-text"><small class="text-muted">${12:Last updated 3 mins ago}</small></p>
+		</div>
+	</div>
+	<div class="card bg-primary p-3 text-center">
+		<blockquote class="blockquote mb-0">
+			<p>${13:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.}</p>
+			<footer class="blockquote-footer">
+				<small>
+					${14:Someone famous in }<cite title="${15:Source Title}">${15:Source Title}</cite>
+				</small>
+			</footer>
+		</blockquote>
+	</div>
+	<div class="card text-center">
+		<h4 class="card-title">${16:Card title}</h4>
+		<p class="card-text">${17:This card has supporting text below as a natural lead-in to additional content.}</p>
+		<p class="card-text"><small class="text-muted">${18:Last updated 3 mins ago}</small></p>
+	</div>
+	<div class="card">
+		<img class="card-img" src="${19:...}" alt="${20:Card image}">
+	</div>
+	<div class="card p-3 text-right">
+		<blockquote class="blockquote mb-0">
+			<p>${21:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.}</p>
+			<footer>
+				<small class="text-muted">
+					${22:Someone famous in }<cite title="${23:Source Title}">${23:Source Title}</cite>
+				</small>
+			</footer>
+		</blockquote>
+	</div>
+	<div class="card">
+		<div class="card-body">
+			<h4 class="card-title">${24:Card title}</h4>
+			<p class="card-text">${25:This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.}</p>
+			<p class="card-text"><small class="text-muted">${26:Last updated 3 mins ago}</small></p>
+		</div>
+	</div>
+</div>
+]]></content>
+	<tabTrigger>b4:card:column</tabTrigger>
+</snippet>

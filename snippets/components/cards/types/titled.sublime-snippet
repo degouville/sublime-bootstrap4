@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<div class="card${1: text-center}">
+	<div class="card-body">
+		<h4 class="card-title">${2:Card title}</h4>
+		<h6 class="card-subtitle mb-2 text-muted">${3:Card subtitle}</h6>
+		<p class="card-text">${4:Some quick example text to build on the card title and make up the bulk of the card's content.}</p>
+		<a href="${5:#}" class="card-link">${6:Card link}</a>
+		<a href="${7:#}" class="card-link">${8:Another link}</a>
+	</div>
+</div>
+]]></content>
+	<tabTrigger>b4:card:titled</tabTrigger>
+</snippet>
