@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<div class="card">
+	<div class="card-body">
+		<h4 class="card-title">${1:Card title}</h4>
+		<p class="card-text">${2:This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.}</p>
+		<p class="card-text"><small class="text-muted">${3:Last updated 3 mins ago}</small></p>
+	</div>
+	<img class="card-img-bottom" src="${4:...}" alt="${5:Card image cap}">
+</div>
+]]></content>
+	<tabTrigger>b4:card:image-caps:bottom</tabTrigger>
+</snippet>

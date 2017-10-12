@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<div class="card${1: text-center}">
+	<img class="card-img-top" src="${2:...}" alt="${3:Card image cap}">
+	<div class="card-body">
+		<h4 class="card-title">${4:Card title}</h4>
+		<p class="card-text">${5:Some quick example text to build on the card title and make up the bulk of the card's content.}</p>
+	</div>
+	<ul class="list-group list-group-flush">
+		<li class="list-group-item">${6:Cras justo odio}</li>
+		<li class="list-group-item">${7:Dapibus ac facilisis in}</li>
+		<li class="list-group-item">${8:Vestibulum at eros}</li>
+	</ul>
+	<div class="card-body">
+		<a href="${9:#}" class="card-link">${10:Card link}</a>
+		<a href="${11:#}" class="card-link">${12:Another link}</a>
+	</div>
+</div>
+]]></content>
+	<tabTrigger>b4:card:complete</tabTrigger>
+</snippet>
