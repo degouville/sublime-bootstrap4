@@ -90,12 +90,12 @@ Ensure you have enabled "b4" in your Preferences.sublime-settings:
 ###### <a name="templates">Templates</a>
 | Snippets                             | Descriptions                          |
 | :----------------------------        | :------------------------------------ |
-| b4:html5                    | Generates a Basic HTML5 Template      |
-| b4:cdn                      | Generates CSS & JS call using CDN     |
-| b4:cdn_css                  | Generates CSS call using CDN          |
-| b4:cdn_js                   | Generates JS call using CDN           |
-| b4:cdn_css                  | Generates CSS call using local file   |
-| b4:cdn_js                   | Generates JS call using local file    |
+| b4:template:html5                    | Generates a Basic HTML5 Template      |
+| b4:template:cdn                      | Generates CSS & JS call using CDN     |
+| b4:template:cdn_css                  | Generates CSS call using CDN          |
+| b4:template:cdn_js                   | Generates JS call using CDN           |
+| b4:template:cdn_css                  | Generates CSS call using local file   |
+| b4:template:cdn_js                   | Generates JS call using local file    |
 
 ###### <a name="examples">Examples</a>
 | Snippets                             | Descriptions                          |
