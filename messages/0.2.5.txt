@@ -4,7 +4,7 @@ Bootstrap 4 Snippets - Has been updated !! -> v0.2.5
 ============================================================
         Bootstrap v4.0.0-beta has been released !!
 ============================================================
-Follow me on Twitter: @degouville
+Follow me on Twitter: @de_gouville
 ------------------------------------------------------------
 
 Special thanks to :
