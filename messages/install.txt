@@ -11,4 +11,4 @@ This package is compatible with both Sublime
 Text versions 2 & 3.
 
 Documentation, examples & issue filing can be found here:
-https://github.com/mdegoo/sublime-bootstrap4
+https://github.com/degouville/sublime-bootstrap4
