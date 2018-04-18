@@ -2,5 +2,5 @@
 	<content><![CDATA[
 <img src="$1" class="img-fluid${2: img-thumbnail}" alt="${3:Responsive image}">
 ]]></content>
-	<tabTrigger>b4:image:fluid</tabTrigger>
+	<tabTrigger>b4:image-fluid</tabTrigger>
 </snippet>

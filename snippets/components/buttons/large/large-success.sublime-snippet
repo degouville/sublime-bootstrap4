@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<button type="button" class="btn btn-success btn-lg">${1:Success}</button>
+]]></content>
+	<tabTrigger>b4:button:large:success</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<a class="btn btn-dark${1: btn-${2:lg|sm}}" href="${3:#}" role="button">${4:Link}</a>
+]]></content>
+	<tabTrigger>b4:link:dark</tabTrigger>
+</snippet>

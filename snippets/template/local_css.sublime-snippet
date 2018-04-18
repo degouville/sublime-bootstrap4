@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="$1/css/bootstrap.css">
-]]></content>
-	<tabTrigger>b4:template:local_css</tabTrigger>
-</snippet>

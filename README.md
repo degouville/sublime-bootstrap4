@@ -45,18 +45,19 @@ Ensure you have enabled "b4" in your Preferences.sublime-settings:
 ---
 
 
-## <a name="menu"></a>Menu
+## <a name="menu">Menu</a>
 * Getting Started
+  - [Imports](#imports)
   - [Templates](#templates)
-  - [Examples](#examples)
- * Layout
+* Layout
   - [Grid](#grid)
   - [Media](#media)
   - [Utilities for layout](#utilities-for-layout)
-<!-- * Content
+* Content
   - [Typography](#typography)
   - [Tables](#tables)
-  - [Figures](#figures)
+  - [Images](#images)
+<!--
 * Components
   - [Buttons](#buttons)
   - [Button group](#button-group)
@@ -87,70 +88,100 @@ Ensure you have enabled "b4" in your Preferences.sublime-settings:
 
 ### Getting Started
 
-###### <a name="templates">Templates</a>
+#### <a name="imports">Imports</a>
+| Snippets                             | Descriptions                          |
+| :----------------------------        | :------------------------------------ |
+
+| b4:cdn                      | Generates CSS & JS call using CDN     |
+| b4:cdn_css                  | Generates CSS call using CDN          |
+| b4:cdn_js                   | Generates JS call using CDN           |
+| b4:local_css                  | Generates CSS call using local file   |
+| b4:local_js                   | Generates JS call using local file    |
+
+#### <a name="templates">Templates</a>
 | Snippets                             | Descriptions                          |
 | :----------------------------        | :------------------------------------ |
 | b4:template:html5                    | Generates a Basic HTML5 Template      |
-| b4:template:cdn                      | Generates CSS & JS call using CDN     |
-| b4:template:cdn_css                  | Generates CSS call using CDN          |
-| b4:template:cdn_js                   | Generates JS call using CDN           |
-| b4:template:cdn_css                  | Generates CSS call using local file   |
-| b4:template:cdn_js                   | Generates JS call using local file    |
-
-###### <a name="examples">Examples</a>
-| Snippets                             | Descriptions                          |
-| :----------------------------        | :------------------------------------ |
-| b4:starter                   | Generates a Starter Template          |
-| b4:album                     | Generates an Album Template           |
-| b4:carousel                  | Generates a Carousel Template         |
-| b4:grids                     | Generates a Grids Template            |
-| b4:cover                     | Generates a Cover Template            |
-| b4:dashboard                 | Generates a Dashboard Template        |
-| b4:jumbotron                 | Generates a Jumbotron Template        |
-| b4:narrow_jumbotron          | Generates a Narrow Jumbotron Template |
-| b4:navbars                   | Generates a Navbars Template          |
-| b4:offcanvas                 | Generates a OffCanvas Template        |
-| b4:navbar_top_fixed          | Generates a Navbar Top Fixed Template |
-| b4:navbar_top                | Generates a Navbar Top Template       |
-| b4:justified_nav             | Generates a Justified nav Template    |
-| b4:sticky_footer             | Generates a Sticky footer Template    |
-| b4:sticky_footer+navbar      | Generates a Sticky footer w/ navbar...|
-| b4:sign_in                   | Generates a Sign_in Template          |
-| b4:blog                      | Generates a Blog Template             |
+| b4:template:starter                   | Generates a Starter Template          |
+| b4:template:blog                      | Generates a Blog Template             |
+| b4:template:dashboard                 | Generates a Dashboard Template        |
+| b4:template:sign_in                   | Generates a Sign_in Template          |
+| b4:template:jumbotron                 | Generates a Jumbotron Template        |
+| b4:template:album                     | Generates an Album Template           |
+| b4:template:carousel                  | Generates a Carousel Template         |
+| b4:template:grids                     | Generates a Grids Template            |
+| b4:template:cover                     | Generates a Cover Template            |
+| b4:template:narrow_jumbotron          | Generates a Narrow Jumbotron Template |
+| b4:template:navbars                   | Generates a Navbars Template          |
+| b4:template:offcanvas                 | Generates a OffCanvas Template        |
+| b4:template:navbar_top_fixed          | Generates a Navbar Top Fixed Template |
+| b4:template:navbar_top                | Generates a Navbar Top Template       |
+| b4:template:justified_nav             | Generates a Justified nav Template    |
+| b4:template:sticky_footer             | Generates a Sticky footer Template    |
+| b4:template:sticky_footer+navbar      | Generates a Sticky footer with a navbar|
 
 ### Layout
 
-###### <a name="grid">Grid</a>
+#### <a name="grid">Grid</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
 | b4:grid                              | Generates a grid                      |
 | b4:container                    | Generates a container                 |
-| b4:container_fluid              | Generates a fluid container           |
+| b4:container-fluid              | Generates a fluid container           |
 | b4:row                          | Generates a row                       |
 | b4:col                          | Generates a column                    |
 | b4:column                       | Generates a column w/ options         |
-| b4:col_sm                       | Generates a small column              |
-| b4:col_md                       | Generates a medium column             |
-| b4:col_lg                       | Generates a large column              |
-| b4:col_xl                       | Generates a extra large column        |
-| b4:col_flex                     | Generates a flexbox column            |
+| b4:col-sm                       | Generates a small column              |
+| b4:col-md                       | Generates a medium column             |
+| b4:col-lg                       | Generates a large column              |
+| b4:col-xl                       | Generates a extra large column        |
+| b4:col:flex                     | Generates a flexbox column            |
 
-###### <a name="media">Media</a>
+#### <a name="media">Media</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
 | b4:media                             | Generates a Media                     |
 | b4:media:right                       | Generates a Media right               |
-| b4:media:medium                      | Generates a Media middle              |
+| b4:media:center                      | Generates a Media middle              |
 | b4:media:bottom                      | Generates a Media bottom              |
 | b4:media:list                        | Generates a Media List                |
 
-###### <a name="utilities-for-layout">Utilities for layout</a>
+#### <a name="utilities-for-layout">Utilities for layout</a>
 | Snippets                             | Descriptions                          |
 | :-------------                       | :------------------------------------ |
-| b4:utilities:visible                 | Generates a (in)visible snippet       |
-| b4:utilities:spacing                 | Generates a Spacing options snippet   |
-| b4:utilities:spacing:centered        | Generates a Spacing centered snippet  |
+| b4:visible                 | Generates a (in)visible snippet       |
+| b4:spacing                 | Generates a Spacing options snippet   |
+| b4:spacing:centered        | Generates a Spacing centered snippet  |
 
+### Content
+
+#### <a name="typography">Typography</a>
+| Snippets                             | Descriptions                          |
+| :-------------                       | :------------------------------------ |
+| b4:blockquote               | Generates a blockquote
+| b4:description_list         | Generates a list of terms and descriptions
+| b4:display_heading          | Generates a display header
+| b4:lead                     | Generates a lead paragraph
+| b4:list-inline              | Generates a list of inlined elements
+| b4:list-unstyled            | Generates a list of itens without any bullet
+| b4:text-muted               | Generates a text-muted element for secondary text
+
+#### <a name="tables">Tables</a>
+| Snippets                             | Descriptions                          |
+| :-------------                       | :------------------------------------ |
+| b4:table                    | Generates a simple table markup
+| b4:table:bordered           | Generates a table with borders
+| b4:table:head               | Generates a table colored in the header
+| b4:table:hover              | Generates a table with hover behavior
+| b4:table:responsive         | Generates a responsive table
+| b4:table:small              | Generates a table with condensed lines
+| b4:table:striped            | Generates a table with stripes
+
+#### <a name="images">Images</a>
+| Snippets                             | Descriptions                          |
+| :-------------                       | :------------------------------------ |
+| b4:image-fluid            | Generates a responsive image       |
+| b4:figure                 | Generates figure with caption   |
 
 ---
 

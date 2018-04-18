@@ -4,5 +4,5 @@
 	${2:Centered element}
 </div>
 ]]></content>
-	<tabTrigger>b4:utilities:spacing:centered</tabTrigger>
+	<tabTrigger>b4:spacing:centered</tabTrigger>
 </snippet>

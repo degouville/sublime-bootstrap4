@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
-<div class="alert alert-${2:success|info|warning|danger} alert-dismissible fade in" role="alert">
+<div class="alert alert-${1:success|info|warning|danger} alert-dismissible fade in" role="alert">
 	<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 		<span aria-hidden="true">&times;</span>
 		<span class="sr-only">Close</span>
 	</button>
-	${1:<strong>Holy guacamole!</strong> You should check in on some of those fields below.}
+	${2:<strong>Holy guacamole!</strong> You should check in on some of those fields below.}
 </div>
 ]]></content>
 	<tabTrigger>b4:alert:dismissible</tabTrigger>

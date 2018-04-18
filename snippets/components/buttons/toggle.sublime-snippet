@@ -1,6 +1,8 @@
 <snippet>
 	<content><![CDATA[
-<button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">$1</button>
+<button type="button" class="btn btn-${1:primary}" data-toggle="button" aria-pressed="false" autocomplete="off">
+	${2:Single toggle}
+</button>
 ]]></content>
 	<tabTrigger>b4:button:toggle</tabTrigger>
 </snippet>

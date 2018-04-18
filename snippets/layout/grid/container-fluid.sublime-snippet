@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<div class="container-fluid">
+	$1
+</div>
+]]></content>
+	<tabTrigger>b4:container-fluid</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<button type="button" class="btn btn-light btn-sm">${1:Light}</button>
+]]></content>
+	<tabTrigger>b4:button:small:light</tabTrigger>
+</snippet>

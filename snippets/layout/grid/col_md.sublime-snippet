@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<div class="col-md-${1:1-12|auto}">
-  	$2
-</div>
-]]></content>
-	<tabTrigger>b4:grid:col_md</tabTrigger>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<button type="button" class="btn btn-primary btn-${1:lg|sm}">$2</button>
-]]></content>
-	<tabTrigger>b4:button:size</tabTrigger>
-</snippet>

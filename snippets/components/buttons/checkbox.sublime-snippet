@@ -1,14 +1,14 @@
 <snippet>
 	<content><![CDATA[
 <div class="btn-group" data-toggle="buttons">
-	<label class="btn btn-primary active">
-		<input type="checkbox" checked autocomplete="off">$1
+	<label class="btn btn-secondary${1: active}">
+		<input type="checkbox" checked autocomplete="off">${2:Checkbox 1 (pre-checked)}
 	</label>
-	<label class="btn btn-primary">
-		<input type="checkbox" autocomplete="off">$2
+	<label class="btn btn-secondary">
+		<input type="checkbox" autocomplete="off">${3:Checkbox 2}
 	</label>
-	<label class="btn btn-primary">
-		<input type="checkbox" autocomplete="off">$3
+	<label class="btn btn-secondary">
+		<input type="checkbox" autocomplete="off">${4:Checkbox 3}
 	</label>
 </div>
 ]]></content>
