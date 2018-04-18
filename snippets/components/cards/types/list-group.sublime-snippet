@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<div class="card${1: text-center}">
+	<ul class="list-group list-group-flush">
+		<li class="list-group-item">${2:Cras justo odio}</li>
+		<li class="list-group-item">${3:Dapibus ac facilisis in}</li>
+		<li class="list-group-item">${4:Vestibulum at eros}</li>
+	</ul>
+</div>
+]]></content>
+	<tabTrigger>b4:card:list-group</tabTrigger>
+</snippet>

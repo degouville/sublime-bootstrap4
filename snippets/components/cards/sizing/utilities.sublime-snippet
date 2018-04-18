@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<div class="card w-${1:75}">
+	<div class="card-body">
+		<h4 class="card-title">${2:Card title}</h4>
+		<p class="card-text">${3:With supporting text below as a natural lead-in to additional content.}</p>
+		<a href="${4:#}" class="btn btn-primary">${5:Go somewhere}</a>
+	</div>
+</div>
+]]></content>
+	<tabTrigger>b4:card:size:utilities</tabTrigger>
+</snippet>

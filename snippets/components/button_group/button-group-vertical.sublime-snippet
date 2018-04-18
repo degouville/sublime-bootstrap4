@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<div class="btn-group btn-group-vertical${1: btn-group-${2:lg}}" role="group" aria-label="${3:Basic example}">
+	<button type="button" class="btn btn-secondary">${4:Left}</button>
+	<button type="button" class="btn btn-secondary">${5:Middle}</button>
+	<button type="button" class="btn btn-secondary">${6:Right}</button>
+</div>
+]]></content>
+	<tabTrigger>b4:button-group:vertical</tabTrigger>
+</snippet>

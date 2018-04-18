@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<div class="card${1: text-center}">
+	<div class="card-body">
+		${2:Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, laudantium.}
+	</div>
+</div>
+]]></content>
+	<tabTrigger>b4:card:body</tabTrigger>
+</snippet>
