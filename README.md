@@ -1,4 +1,4 @@
-Bootstrap 4 - Sublime Plugin :red_circle:
+DEPRECATED | Bootstrap 4 - Sublime Plugin :red_circle:
 ============================
 
 #### A sublime plugin complete with Bootstrap 4 snippets
